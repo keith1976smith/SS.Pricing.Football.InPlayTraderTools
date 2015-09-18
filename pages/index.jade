@@ -1,0 +1,19 @@
+extends html
+
+block title
+  | football-in-play-tradertools-ui
+
+block vars
+  - htmlClass="fullpage-hosting medium-scale"
+
+block styles
+  link(rel='stylesheet', href=cssUrl+'combined.css', media='screen')
+
+block body
+  #app-area
+    .wallpaper-message ...
+
+
+block scripts
+  script(src=jsUrl+"/lib.js")
+  script(src=jsUrl+"/main.js")

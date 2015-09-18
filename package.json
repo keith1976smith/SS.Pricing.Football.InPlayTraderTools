@@ -1,0 +1,83 @@
+{
+  "main": "index.js",
+  "devDependencies": {
+    "babel-eslint": "^4.0.5",
+    "browser-sync": "^2.1.6",
+    "chai": "^3.2.0",
+    "csv-parse": "^0.1.0",
+    "eslint": "^1.1.0",
+    "eslint-plugin-react": "^3.2.2",
+    "gulp-mocha-phantomjs": "^0.3.0",
+    "gulp-webserver": "^0.6.0",
+    "mocha": "^2.3.2",
+    "phantomjs": "^1.9.7-15",
+    "proxyquireify": "^1.1.0",
+    "q": "^1.1.1",
+    "retry": "^0.6.0",
+    "rimraf": "^2.2.8",
+    "yargs": "^1.3.3",
+    "@sportingsolutions/eslint-config-shared": "^1.1.0"
+  },
+  "dependencies": {
+    "@sportingsolutions/react-nav-bar": "^1.0.4",
+    "@sportingsolutions/ssln-bootstrap": "1.0.11",
+    "@sportingsolutions/react-status-track": "^1.0.0",
+    "@sportingsolutions/react-login-form": "^2.0.1",
+    "@sportingsolutions/ssln-login": "^2.0.1",
+    "browserify": "8.0.2",
+    "browserify-shim": "^3.8.2",
+    "browsernizr": "^1.0.2",
+    "cookies-js": "^0.4.0",
+    "es5-shim": "^4.0.3",
+    "flux": "^2.0.1",
+    "gulp": "^3.8.11",
+    "gulp-concat-css": "^0.1.4",
+    "gulp-csso": "^0.2.9",
+    "gulp-if": "^1.2.4",
+    "gulp-jade": "^0.5.0",
+    "gulp-less": "^1.3.1",
+    "gulp-plumber": "^0.6.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-rework": "^1.0.2",
+    "gulp-streamify": "0.0.5",
+    "gulp-sync": "^0.1.2",
+    "gulp-uglify": "^0.3.1",
+    "gulp-util": "^3.0.0",
+    "jquery": "^2.1.1",
+    "json5": "^0.4.0",
+    "kew": "^0.5.0-alpha.1",
+    "lodash": "^3.2.0",
+    "merge-stream": "^0.1.5",
+    "mold-source-map": "^0.3.0",
+    "node-uuid": "^1.4.3",
+    "npm": "^2.8.4",
+    "numeral": "^1.5.3",
+    "react": "^0.12.1",
+    "react-bootstrap": "^0.13.0",
+    "react-responsive-mixin": "^0.3.3",
+    "react-router": "^0.12.4",
+    "react-slider": "^0.3.3",
+    "reactify": "^1.0.0",
+    "rework-assets": "^1.0.0",
+    "through": "^2.3.6",
+    "vinyl-source-stream": "^0.1.1"
+  },
+  "browser": {
+    "react": "react/addons",
+    "signalr": "@sportingsolutions/ss-pricing-sharedhtml/vendor/signalr/jquery.signalR-2.2.0"
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery"
+  },
+  "name": "@sportingsolutions/football-in-play-tradertools-ui",
+  "version": "1.0.0",
+  "description": "In-play trader tools UI for Football",
+  "author": "Keith Smith <ksmith@sportingindex.com>",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "@sportingsolutions/eslint-config-shared"
+  }
+}

@@ -1,0 +1,44 @@
+@import "../node_modules/@sportingsolutions/ssln-bootstrap/dark.less";
+@import "../node_modules/@sportingsolutions/ladda-button/ladda-button.less";
+@import "../node_modules/@sportingsolutions/ss-pricing-sharedhtml/stylesheets/market-explorer.less";
+@import "../node_modules/@sportingsolutions/ss-pricing-sharedhtml/stylesheets/corner-flash.less";
+@import "../node_modules/@sportingsolutions/ss-pricing-sharedhtml/stylesheets/home-link.less";
+@import "../node_modules/@sportingsolutions/ss-pricing-sharedhtml/stylesheets/input-spinner.less";
+@import "../node_modules/@sportingsolutions/nav-bar/less/nav-bar-extras.less";
+@import "../node_modules/@sportingsolutions/status-track/status-track.less";
+
+
+@import "./self-trade.less";
+@import "./match-clock.less";
+@import "./headline-grid.less";
+@import "./action-bar.less";
+@import "./tab-stuffer.less";
+@import "./notifier.less";
+@import "./small-heading.less";
+@import "./underline-heading.less";
+@import "./scoreboard.less";
+@import "./edit-scores.less";
+@import "./slider.less";
+@import "./bootstrap-demo.less";
+@import "./suspend-groups.less";
+@import "./awooga.less";
+@import "./start-match.less";
+@import "./status-indicator.less";
+
+
+// tweak bootbox modals and their backdrops to overlay normal modals
+.bootbox {
+    z-index: 1070;
+    & + .modal-backdrop.fade.in {
+        z-index: 1060;
+    }
+}
+
+// ::-webkit-scrollbar {
+//     height: 1em;
+//     width: 1em;
+// }
+
+.modal, .modal-backdrop {
+    position: absolute;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>SS.Pricing.AustralianRules.UI</id>
+    <version>$version$</version>
+    <authors>Sporting Solutions</authors>
+    <owners>Sporting Solutions</owners>
+    <licenseUrl>http://www.sportingsolutions.com</licenseUrl>
+    <projectUrl>http://www.sportingsolutions.com</projectUrl>
+    <iconUrl>https://dl.dropbox.com/u/30149716/SS/nugetPackageLogo.png</iconUrl>
+    <description>Self-trade australian rules football UI</description>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright 2014 Sporting Solutions</copyright>
+  </metadata>
+  <files>
+    <file src="**" exclude="**\*.pdb;**\node_modules" target="." />
+  </files>
+</package>
