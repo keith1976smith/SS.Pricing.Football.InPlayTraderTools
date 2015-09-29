@@ -1,129 +1,64 @@
-/*jshint node:true, browser:true, newcap:false, unused:vars, esnext:true*/
-/*global*/
-"use strict";
-var React = require("react");
-var $ = require("jquery");
-var cookies = require("cookies-js");
-var NavBar = require("@sportingsolutions/nav-bar");
-var spinLogin = require("@sportingsolutions/ss-pricing-sharedhtml/components/spinLogin");
-var config = global.config;
-var RouteHandler = require("react-router").RouteHandler;
-var LoginForm = require("@sportingsolutions/ss-pricing-sharedhtml/components/login-form");
-var constants = require("../constants/app-constants");
-var CompatibilityNav = require("./compatibility-nav");
-var Notifier = require("./notifier");
-var ResponsiveMixin = require('react-responsive-mixin');
+import React from "react";
+import LoginForm from "@sportingsolutions/react-login-form";
+import NavBar from "@sportingsolutions/react-nav-bar";
+//var Chooser = NavBar.Chooser;
+import Radium from "radium";
+import _ from "lodash";
+import config from "../../config";
+import FixtureNavigator from "./fixture-navigator";
+import styles from "../styles/dark";
 
 
-/*******************************************************************************
- * main app
- */
-var App = React.createClass({
+export default Radium(React.createClass({
   displayName: "App",
-  mixins: [ResponsiveMixin],
-
-
+  mixins: [React.addons.PureRenderMixin],
   propTypes: {
-    dispatcher: React.PropTypes.instanceOf(require("../dispatchers/app-dispatcher")),
-    newsfeedStore: React.PropTypes.object.isRequired
+    actions: React.PropTypes.object,
+    stores: React.PropTypes.object,
+    styles: React.PropTypes.object,
   },
-
-  getInitialState: function () {
+  getDefaultProps () {
     return {
-      auth: {
-        username: cookies.get("X-Auth-Username"),
-        userManagementUrl: cookies.get("X-Auth-UserManagementUrl"),
-        token: cookies.get("X-Auth-Token"),
-      },
-      version: "unknown",
-      responsiveMode: "none"
+      actions: {},
+      stores: {},
+      styles: {}
     };
   },
-
-
-  componentWillMount: function () {
-    this.media({maxWidth: "20em"}, 
-      () => this.setState({responsiveMode: "small"}));
-    this.media({minWidth: "21em", maxWidth: "40em"}, 
-      () => this.setState({responsiveMode: "small"}));
-    this.media({minWidth: "41em", maxWidth: "75em"}, 
-      () => this.setState({responsiveMode: "medium"}));
-    this.media({minWidth: "76em"}, 
-      () => this.setState({responsiveMode: "large"}));
-
-    // signalR setup
-    $.get(config.signalRHubsUrl, this.onHubsLoaded, "script");
-    this.props.dispatcher.register(action => {
-      if (action.actionType === constants.AUTH_FAIL) {
-        this.onAuthFail();
-      }
-    });
+  renderLogin () {
+    return <LoginForm login={this.props.actions.account.login} />;
   },
-
-  onAuthenticated: function (username, token, userManagementUrl) {
-    cookies.set("X-Auth-Username", username);
-    cookies.set("X-Auth-Token", token);
-    cookies.set("X-Auth-UserManagementUrl", userManagementUrl);
-    this.setState({
-      auth: {
-        username: username,
-        userManagementUrl: userManagementUrl,
-        token: token
-      }
-    });
+  renderFixtureList () {
+    return <FixtureNavigator
+            loggedInUsername={this.props.stores.getIn(["account", "username"])}
+            styles={styles}
+            fixtures={this.props.stores.getIn(["fixtures"])}
+            filter={this.props.stores.getIn(["filter"])}
+            refresh={this.props.actions.fixtures.fetch}
+            setDefinitionFilter={this.props.actions.filter.setDefinition}
+            setCompetitionFilter={this.props.actions.filter.setCompetition}
+            setDescriptionFilter={this.props.actions.filter.setDescription}
+            setSortByField={this.props.actions.filter.setSortByField}
+            setSortAscending={this.props.actions.filter.setSortAscending}
+            clearFilter={this.props.actions.filter.clear}
+          />;
   },
-  onAuthFail: function () {
-    console.log("Auth fail detected at app level");
-    this.logout();
-  },
+  render () {
+    return <div style={[{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}]}>
+      <NavBar
+        appName={`${_.capitalize(config.sport)} Fixtures`}
+        fixtureFactoryUrl={ config.fixtureFactoryUIUrl}
+        selfTradeurl={ config.selfTradeUIUrl }
+        oddsInterfaceUrl={ config.oddsInterfaceUIUrl }
+        settingsUrl={ config.settingsUIUrl }
+        adminUrl={ config.adminUIUrl }
+        homeUrl="/"
+        logout={this.props.actions.account.logout}
+        username={this.props.stores.getIn(["account", "loggedIn"], false)? this.props.stores.getIn(["account", "username"]): null}>
+      </NavBar>
 
-  login: function (username, password, cb) {
-    return spinLogin(username, password, config.baseUrl, cb);
-  },
-
-  logout: function () {
-    cookies.expire("X-Auth-Token");
-    if (window.location.hostname !== "localhost") {
-      cookies.expire("X-Auth-Username");
-    }
-    cookies.expire("X-Auth-UserManagementUrl");
-    this.setState(this.getInitialState());
-    if (global.config.loginUrl) {
-      window.location = global.config.loginUrl;
-    }
-    else {
-      this.setState({
-        auth: {
-          username: this.state.auth.username,
-          userManagementUrl: this.state.auth.userManagementUrl,
-          token: null
-        }
-      });
-    }
-  },
-
-
-  render: function () {
-    if (this.state.auth.token) {
-      console.log("Found auth token", this.state.auth.token);
-    }
-
-    var content = this.state.auth.token ?
-      <RouteHandler {...this.props} responsiveMode={this.state.responsiveMode} /> :
-      <LoginForm onAuthenticated={this.onAuthenticated} username={this.state.auth.username} login={this.login} />;
-
-    return (
-      <div>
-        <Notifier newsfeedStore={this.props.newsfeedStore} />
-        <NavBar username={this.state.auth.username} logout={this.logout} appName="Australian Rules" />
-        <div className="hosting-area">
-          {content}
-        </div>
-        <CompatibilityNav />
+      <div className="hosting-area">
+        {this.props.stores.getIn(["account", "loggedIn"], false) ? this.renderFixtureList() : this.renderLogin()}
       </div>
-    );
+    </div>;
   }
-});
-
-
-module.exports = App;
+}));

@@ -1,3 +1,15 @@
 {
-    "rootUrl": "/"
+	"buildFolder": "__generated",
+  	"rootUrl": "/",
+	"baseUrl": "//connectappint.sportingsolutions.com/pricingapi",
+	"fixtureFactoryUIUrl": "#lord-lucan",
+	"selfTradeUIUrl": "#jimmy-hoffa",
+	"oddsInterfaceUIUrl": "#shergar",
+	"settingsUIUrl": "#life-on-mars",
+	"adminUIUrl": "#what-im-looking-for",
+	"headerLinkUrl": "#/fixture-id",
+	"homeRedirect": "#/fixture-id",
+	"sport": "football",
+	"uiStemUrl": "//connectint.sportingsolutions.com/#",
+	"apiStemUrl": "//connectappint.sportingsolutions.com/pricingapi/sports/FootballOdds/fixtures/"
 }

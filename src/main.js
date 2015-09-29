@@ -1,267 +1,116 @@
-/*jshint node:true, browser:true, newcap:false, unused:vars, esnext: true*/
-/*global*/
+import React from "react";
+import App from "./components/app";
+import AccountActions from "./actions/account-actions";
+import FixtureActions from "./actions/fixture-actions";
+import FilterActions from "./actions/filter-actions";
+import createEventStreams from "./create-event-streams";
+import AccountStore from "./stores/account-store";
+import FixturesStore from "./stores/fixtures-store";
+import FilterStore from "./stores/filter-store";
+import Rx from "rx";
+import _ from "lodash";
+import Immutable from "immutable";
+import { Router, Route } from 'react-router';
+import cookies  from "cookies-js";
+import PricingApi from "@sportingsolutions/pricing-api";
+import {baseUrl} from "../config";
 
-"use strict";
-var config = global.config = require("../config");
-var React = require("react");
-var App = require("./components/app");
-var $ = require("jquery");
-var _ = require("lodash");
-require("signalr");
-//var aussieLinkRels = require("./constants/link-relations").aussie;
+// recover login details from cookies
+const username = cookies.get("X-Auth-Username");
+const userManagementUrl = cookies.get("X-Auth-UserManagementUrl");
+const authToken = cookies.get("X-Auth-Token");
+const password = cookies.get("X-Auth-Password");
 
+// create a pricing API client using those details
+const pricingApi = PricingApi(baseUrl, username, password, authToken);
 
-// router components
-var Router = require("react-router");
-var Route = Router.Route;
-var DefaultRoute = Router.DefaultRoute;
-var NotFoundRoute = Router.NotFoundRoute;
-var RouteHandler = Router.RouteHandler;
+// flux stuff
+// a catalog of actions we can listen to
+const eventStreams = createEventStreams();
 
-var FixtureIdForm = require("./components/fixture-id-form");
-var Home = require("./components/home");
-var SelfTrade = require("./components/self-trade");
-var NotFound = require("./components/not-found");
-var FiddleAuthToken = require("./components/fiddle-auth-token");
-var LoginForm = require("@sportingsolutions/ss-pricing-sharedhtml/components/login-form");
-var constants = require("./constants/app-constants");
-var BootstrapDemo = require("./components/bootstrap-demo");
-var ResponsiveDemo = require("./components/responsive-demo");
+// a catalog of stores
+const stores = {
+  account: AccountStore(eventStreams),
+  fixtures: FixturesStore(eventStreams),
+  filter: FilterStore(eventStreams),
+};
 
-var createFlux = require("./helpers/flux-helpers").createFlux;
+// a catalog of callable actions
+const actions = {
+  account: AccountActions(stores, eventStreams.account, pricingApi),
+  fixtures: FixtureActions(stores, eventStreams.fixtures, pricingApi),
+  filter: FilterActions(stores, eventStreams.filter),
+};
 
-// kickoff
-var flux = createFlux();
-
-
-var existing = (window && window.localStorage)? window.localStorage.getItem("starredMarkets") : null;
-
-if (existing) {
-  flux.starredMarketsStore.replace(JSON.parse(existing));
-}
-
-flux.starredMarketsStore.addChangeListener(data => {
-    if ( !(window && window.localStorage) ) { return; }
-    window.localStorage.setItem("starredMarkets", JSON.stringify(data));
+// the pricing API will auto-login when it has an auth fail. we will listen for
+// that here so we can store the new auth token
+pricingApi.on("autologin", ({username, password, userManagementUrl, authToken}) => {
+  console.log("detected api peforming an autologin")
+  actions.account.restoreLogin(username, password, authToken, userManagementUrl);
 });
 
-////////////////////////////////////////////////////////////////////////////////
-// signalR setup
-$.get(config.signalRHubsUrl, function () {
-    var aflHub = $.connection.australianRulesHub;
-    var self = this;
-    aflHub.client.matchClockUpdatedAtTime = function(fixtureId, minutes, seconds) {
-        if (normaliseGuid(fixtureId) === normaliseGuid(self.props.fixtureStore.getFixture().id)) {
-          console.log(`Clock ping for ${fixtureId}: ${minutes}:${seconds}`);
-          self.props.actions.gotClockTime(minutes, seconds);
-        }
-    };
+// also we'll store the retrieved login details now
+if (authToken && username && userManagementUrl && password) {
+  console.log("stored credentials found; updating store")
+  actions.account.restoreLogin(username, password, authToken, userManagementUrl);
+}
+else {
+  console.log("no stored credentials found")
+}
 
-
-    aflHub.client.traderVariables = function (id, data) {
-      data = parseJsonIfNecessary(data);
-      flux.dispatcher.dispatch({
-          actionType: constants.GOT_TRADER_VARIABLES,
-          data: data
-      });
-    };
-    
-    aflHub.client.calibrationException = function (data) {
-      data = parseJsonIfNecessary(data);
-      flux.dispatcher.dispatch({
-          actionType: constants.ERROR,
-          err: data
-      });
-    };
-
-    
-    aflHub.client.notification = function (thingy, data) { 
-      data = parseJsonIfNecessary(data);
-      flux.dispatcher.dispatch({
-          actionType: constants.GENERIC_NOTIFICATION,
-          message: data.message
-      });            
-    };
-
-    aflHub.client.calculationStarted = function (incomingId, eventId) { 
-      var fixtureId = flux.fixtureStore.getFixture().id;
-      if (incomingId !== fixtureId) {
-        console.warn(`Ignoring market data for fixture ${incomingId}`);
-        return;
-      }
-
-      flux.dispatcher.dispatch({
-          actionType: constants.CALCULATION_STARTED,
-          eventId: eventId
-      });            
-    };
-
-    aflHub.client.calculationFinished = function (incomingId, eventId) { 
-      var fixtureId = flux.fixtureStore.getFixture().id;
-      if (incomingId !== fixtureId) {
-        console.warn(`Ignoring market data for fixture ${incomingId}`);
-        return;
-      }
-      flux.dispatcher.dispatch({
-          actionType: constants.CALCULATION_FINISHED,
-          eventId: eventId
-      });            
-    };
-
-
-    var calculating = flux.flagsStore.getData().calculating;
-
-    flux.flagsStore.addChangeListener(data => {
-        if ((! data.calculating) && calculating) {
-          setTimeout(flux.actions.loadMarkets, 0);
-        }
-        calculating = data.calculating;
-    });
-
-
-
-    aflHub.client.suspendGroups = function (id, data, version) { 
-      data = parseJsonIfNecessary(data);
-
-      flux.dispatcher.dispatch({
-          actionType: constants.GOT_SUSPEND_GROUPS_DATA,
-          data: data
-      });
-
-    };
-    
-    $.connection.hub.logging = global.config.signalRLogging;
-    $.connection.hub.url = config.signalRUrl;
-
-    var tryingToReconnect = false;
-
-    $.connection.hub.reconnecting(function() {
-      // flux.dispatcher.dispatch({
-      //     actionType: constants.GENERIC_NOTIFICATION,
-      //     message: "Reconnecting"
-      // });            
-      tryingToReconnect = true;
-    });
-
-    $.connection.hub.reconnected(function() {
-      // flux.dispatcher.dispatch({
-      //     actionType: constants.GENERIC_NOTIFICATION,
-      //     message: "Reconnected"
-      // });            
-      tryingToReconnect = false;
-    });
-
-    $.connection.hub.disconnected(function() {
-      flux.dispatcher.dispatch({
-          actionType: constants.GENERIC_NOTIFICATION,
-          message: "Disconnected. Retrying..."
-      });            
-      if(tryingToReconnect) {
-          flux.dispatcher.dispatch({
-              actionType: constants.GENERIC_NOTIFICATION,
-              message: "Real-time connection lost"
-          });            
-      }
-      setTimeout(start, 5000); // Restart connection after 5 seconds. 
-    });
-
-    var subscribedId = null;
-    var subscribingId = null;
-
-    function subscribe () {
-      if (subscribedId !== null) {
-        aflHub.server.unsubscribe(subscribedId);
-      }
-      
-      var fixtureId = flux.fixtureStore.getFixture().id;
-      if (fixtureId === subscribingId) {
-        return;
-      }
-      subscribingId = fixtureId;
-      if (fixtureId) {
-        console.log("subscribing to fixture id " + fixtureId);
-        aflHub.server.subscribe(fixtureId).then(
-          function () {
-            console.log("subscription succeeded");
-            subscribedId = fixtureId;
-            // flux.dispatcher.dispatch({
-            //     actionType: constants.GENERIC_NOTIFICATION,
-            //     message: "Subscribed to fixture"
-            // });            
-            subscribingId = null;     
-          },
-          function (er) {
-            console.log("subscribe failed: " + er.message);
-            subscribingId = null;
-          }
-        );
-      }
-      else {
-        console.log("not subscribing yet, fixture id is " + fixtureId);
-      }
-    }
-
-
-    function start () {
-      $.connection.hub.start({ pingInterval: 10000 }).done(function () {
-        var transportName = ($.connection.hub.transport)? `transport = ${$.connection.hub.transport.name}` :
-          "transport is undefined and nobody knows why";
-        console.log(`Connected, ${transportName},  connection id = ${$.connection.hub.id}`);
-        subscribe();
-
-        flux.fixtureStore.addChangeListener(data => {
-          if (data.id !== subscribedId) { subscribe(); } 
-        });
-      });
-    }
-
-    start();
-
-  }, "script");
-
-
-var Root = React.createClass({
-  displayName: "Root",
-  render: function () {
-    return <RouteHandler {...this.props} />;
+// store login deets
+stores.account.subscribe(account => {
+  const {loggedIn, username, authToken, userManagementUrl, password} = account.toJS();
+  if (loggedIn) {
+    console.log("account store updated; storing cookies")
+    cookies.set("X-Auth-Username", username);
+    cookies.set("X-Auth-Token", authToken);
+    cookies.set("X-Auth-UserManagementUrl", userManagementUrl);
+    cookies.set("X-Auth-Password", password);
+  }
+  else {
+    console.log("account store wiped out, clearing cookies")
+    cookies.expire("X-Auth-Token");
+    cookies.expire("X-Auth-Username");
+    cookies.expire("X-Auth-UserManagementUrl");
+    cookies.expire("X-Auth-Password");
   }
 });
 
-console.log("about to start router, current href is " + window.location.href);
 
-var routes =
-  <Route path="/" handler={Root}>
-    <Route name="authtoken" handler={FiddleAuthToken} />ResponsiveDemo
-    <Route name="bootstrap-demo" handler={BootstrapDemo} />
-    <Route name="responsive-demo" handler={ResponsiveDemo} />
-    <Route path="/" handler={App}>  
-      <DefaultRoute name="home" handler={Home} />
+// an aggregate feed of all stores
+const storeSubject = new Rx.BehaviorSubject(Immutable.Map());
 
-      <Route name="fixture-id" handler={FixtureIdForm} />
-      <Route name="login" handler={LoginForm} />
-      <Route name="self-trade" path="self-trade/:fixtureId" handler={SelfTrade} />
-    </Route>
-    <NotFoundRoute handler={NotFound}/>
-  </Route>;
-
-
-Router.run(routes, function (Handler) {
-  React.render(<Handler {...flux} />, document.getElementById('app-area'));
+_.forEach(stores, (store, label) => {
+  store.subscribe(data => {
+    storeSubject.onNext(storeSubject.getValue().merge({[label]: data}))
+  });
 });
 
-////////////////////////////////////////////////////////////////////////////////
-// helper functions
 
-function normaliseGuid (guid) {
-  return _.isString(guid)? guid.replace("-", "").toLowerCase() : "";
-}
+// wrapper class injects store data into App
+const StoreDataInjectionAppWrapper = React.createClass({
+  displayName: "StoreDataInjectionAppWrapper",
+  componentWillMount () {
+    this.subscription = storeSubject.subscribe(stores => {
+      this.setState({stores});
+    });
+  },
+  componentWillUnmount () {
+    this.subscription.dispose();
+  },
+  render () {
+    return <App
+      actions={actions}
+      styles={{ app: {} }}
+      stores={this.state.stores} />
+  }
+});
 
-/*
- * as of right now, sigR data is coming in as a string of JSON for some bizarre 
- * reason so we need to parse it. since this may get fixed one day i'm making 
- * this smart so it check wheteher it needs to parse or not.
- */
-function parseJsonIfNecessary (data) {
-  return _.isString(data) ? JSON.parse(data) : data;
-}
-
+// render a router into the page
+React.render(
+  <Router>
+    <Route path="/" component={StoreDataInjectionAppWrapper} />
+  </Router>,
+  document.getElementById("app")
+);

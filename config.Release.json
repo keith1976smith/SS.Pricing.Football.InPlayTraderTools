@@ -1,3 +1,16 @@
 {
-    "rootUrl": "/#{VirtualDirectoryName}/"
+    "buildFolder": "__generated",
+    "rootUrl": "/#{VirtualDirectoryName}/",
+    "baseUrl": "#{BaseUrl}",
+    "fixtureFactoryUIUrl": "#{fixtureFactoryUIUrl}",
+    "selfTradeUIUrl": "#{selfTradeUIUrl}",
+    "oddsInterfaceUIUrl": "#{oddsInterfaceUIUrl}",
+    "settingsUIUrl": "#{settingsUIUrl}",
+    "adminUIUrl": "#{adminUIUrl}",
+    "headerLinkUrl": "#{selfTradeUIUrl}",
+    "homeRedirect": "#{selfTradeUIUrl}",
+    "sport": "#{sport}",
+	"uiStemUrl": "#{uiStemUrl}",
+	"apiStemUrl": "#{apiStemUrl}"
+
 }
