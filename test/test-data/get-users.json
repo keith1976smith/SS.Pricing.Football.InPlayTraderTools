@@ -1,0 +1,654 @@
+[{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "supervisor@tradertools",
+		"EmailAddress": "janus.pienaar@gmail.com",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/supervisor@tradertools/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/supervisor@tradertools/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/supervisor@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/supervisor@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/supervisor@tradertools/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+},
+{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "dhipkin@tradertools",
+		"EmailAddress": "janus.pienaar@gmail.com",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/dhipkin@tradertools/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/dhipkin@tradertools/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/dhipkin@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/dhipkin@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/dhipkin@tradertools/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+},
+{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "pria@tradertools",
+		"LastLoginDate": "2014-01-24T17:15:33.641Z",
+		"EmailAddress": "pgaddam@sportingindex.com",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/pria@tradertools/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/pria@tradertools/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/pria@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/pria@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/pria@tradertools/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+},
+{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "trader1@tradertools",
+		"LastLoginDate": "2014-03-26T17:36:31.979Z",
+		"EmailAddress": "apeyron@sportingindex.com",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader1@tradertools/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader1@tradertools/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader1@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader1@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader1@tradertools/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+},
+{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "trader5@tradertools",
+		"LastLoginDate": "2014-01-21T18:10:57.034Z",
+		"EmailAddress": "apeyron@sportingindex.com",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader5@tradertools/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader5@tradertools/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader5@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader5@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader5@tradertools/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+},
+{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "trader3@tradertools",
+		"LastLoginDate": "2014-01-21T18:10:43.134Z",
+		"EmailAddress": "apeyron@sportingindex.com",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader3@tradertools/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader3@tradertools/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader3@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader3@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader3@tradertools/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+},
+{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "trader4@tradertools",
+		"LastLoginDate": "2014-01-24T23:23:11.985Z",
+		"EmailAddress": "apeyron@sportingindex.com",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader4@tradertools/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader4@tradertools/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader4@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader4@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader4@tradertools/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+},
+{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "trader2@tradertools",
+		"LastLoginDate": "2014-01-24T15:28:22.526Z",
+		"EmailAddress": "apeyron@sportingindex.com",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader2@tradertools/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader2@tradertools/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader2@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader2@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader2@tradertools/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+},
+{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "trader",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/trader/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+},
+{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "sportingsolutions",
+		"LastLoginDate": "2015-10-02T14:44:05.553Z",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/sportingsolutions/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/sportingsolutions/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/sportingsolutions/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/sportingsolutions/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/sportingsolutions/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+},
+{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "afung@tradertools",
+		"LastLoginDate": "2015-08-28T14:06:53.962Z",
+		"EmailAddress": "afung@sportingindex.com",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/afung@tradertools/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/afung@tradertools/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/afung@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/afung@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/afung@tradertools/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+},
+{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "supervisor1@tradertools",
+		"LastLoginDate": "2015-07-28T10:38:09.843Z",
+		"EmailAddress": "afung@sportingindex.com",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/supervisor1@tradertools/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/supervisor1@tradertools/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/supervisor1@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/supervisor1@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/supervisor1@tradertools/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+},
+{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "wigan1@tradertools",
+		"LastLoginDate": "2015-07-21T09:43:25.64Z",
+		"EmailAddress": "afung@sportingindex.com",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/wigan1@tradertools/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/wigan1@tradertools/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/wigan1@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/wigan1@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/wigan1@tradertools/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+},
+{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "london1@tradertools",
+		"LastLoginDate": "2015-07-16T11:16:07.968Z",
+		"EmailAddress": "afung@sportingindex.com",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/london1@tradertools/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/london1@tradertools/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/london1@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/london1@tradertools/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/london1@tradertools/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+},
+{
+	"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/list",
+	"Content": {
+		"Id": "servicesportingsolutions",
+		"LastLoginDate": "2015-10-02T10:06:13.034Z",
+		"Enabled": true,
+		"CompanyId": "tradertools",
+		"VHost": "/tradertools"
+	},
+	"ContentType": "application/json",
+	"Links": [{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/servicesportingsolutions/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/password",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Password/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accessmanagement",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/servicesportingsolutions/AccessManager/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy/update",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/servicesportingsolutions/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/accesspolicy",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/servicesportingsolutions/AccessPolicy/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/delete",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/servicesportingsolutions/Delete/"
+	},
+	{
+		"Relation": "http://api.sportingsolutions.com/rels/usermanagementservice/user/reset",
+		"Href": "http://connectappuat.sportingsolutions.com/SecurityService/UserManagementService/User/Reset/"
+	}]
+}]

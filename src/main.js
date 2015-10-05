@@ -3,17 +3,20 @@ import App from "./components/app";
 import AccountActions from "./actions/account-actions";
 import FixtureActions from "./actions/fixture-actions";
 import FilterActions from "./actions/filter-actions";
+import UserActions from "./actions/user-actions";
 import createEventStreams from "./create-event-streams";
 import AccountStore from "./stores/account-store";
 import FixturesStore from "./stores/fixtures-store";
 import FilterStore from "./stores/filter-store";
+import UserStore from "./stores/users-store";
 import Rx from "rx";
 import _ from "lodash";
 import Immutable from "immutable";
 import { Router, Route } from 'react-router';
 import cookies  from "cookies-js";
 import PricingApi from "@sportingsolutions/pricing-api";
-import {baseUrl} from "../config";
+import RBFootballApi from "./rb-football-api/api";
+import {baseUrl, rbFootballApiUrl} from "../config";
 
 // recover login details from cookies
 const username = cookies.get("X-Auth-Username");
@@ -23,6 +26,7 @@ const password = cookies.get("X-Auth-Password");
 
 // create a pricing API client using those details
 const pricingApi = PricingApi(baseUrl, username, password, authToken);
+const rbFootballApi = RBFootballApi(rbFootballApiUrl, userManagementUrl, authToken);
 
 // flux stuff
 // a catalog of actions we can listen to
@@ -32,14 +36,14 @@ const eventStreams = createEventStreams();
 const stores = {
   account: AccountStore(eventStreams),
   fixtures: FixturesStore(eventStreams),
-  filter: FilterStore(eventStreams),
+  users: UserStore(eventStreams)
 };
 
 // a catalog of callable actions
 const actions = {
   account: AccountActions(stores, eventStreams.account, pricingApi),
-  fixtures: FixtureActions(stores, eventStreams.fixtures, pricingApi),
-  filter: FilterActions(stores, eventStreams.filter),
+  fixtures: FixtureActions(stores, eventStreams.fixtures, rbFootballApi),
+  users: UserActions(stores, eventStreams.users, rbFootballApi)
 };
 
 // the pricing API will auto-login when it has an auth fail. we will listen for

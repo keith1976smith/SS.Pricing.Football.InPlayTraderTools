@@ -1,0 +1,2156 @@
+[{
+	"Id": "9ebe9b40-2139-4686-a1ce-0976356df1ec",
+	"CeState": {
+		"CeId": "8lo8Q2qDIBfn54goAAIQNZbKvbw",
+		"GroupId": "9ebe9b40-2139-4686-a1ce-0976356df1ec",
+		"Date": "2015-10-02T16:30:00Z",
+		"Competition": "Austria Erste Liga",
+		"HomeTeam": "FC Liefering",
+		"AwayTeam": "KSV Superfund",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "d8f9d81a-82f8-4f94-bb00-992bab99bd0b",
+	"CeState": {
+		"CeId": "qvp5LH8UdEs-dw380416HjoxJU0",
+		"GroupId": "d8f9d81a-82f8-4f94-bb00-992bab99bd0b",
+		"Date": "2015-10-02T18:25:00Z",
+		"Competition": "Ireland Cup",
+		"HomeTeam": "Dundalk",
+		"AwayTeam": "Longford",
+		"Provider": "RunningBall",
+		"IsExtraTime": true,
+		"IsPenalties": true
+	}
+},
+{
+	"Id": "27d86c24-4062-4df9-8613-22c01153e391",
+	"CeState": {
+		"CeId": "YaEFiLBLODFr6gUpt_aCnqS83V4",
+		"GroupId": "27d86c24-4062-4df9-8613-22c01153e391",
+		"Date": "2015-10-02T13:30:00Z",
+		"Competition": "Algeria Ligue 1 - U21",
+		"HomeTeam": "MO Bejaia U21",
+		"AwayTeam": "CR Belouizdad U21",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "f81520f7-7e8a-4fb7-9a3a-d9e650fae474",
+	"CeState": {
+		"CeId": "N16aPEUWDqI3MdeqwH6Wn6w5sKo",
+		"GroupId": "f81520f7-7e8a-4fb7-9a3a-d9e650fae474",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "Algeria Division 1",
+		"HomeTeam": "NA Hussein-Dey",
+		"AwayTeam": "RC Relizane",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "d81a8412-937e-49e6-adf8-c6165e8abfc0",
+	"CeState": {
+		"CeId": "13X5IDRAL8DOSPTNBDfh6dFtw9o",
+		"GroupId": "d81a8412-937e-49e6-adf8-c6165e8abfc0",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "Argentina Primera C Metropolitana",
+		"HomeTeam": "Club Atletico Talleres",
+		"AwayTeam": "Club Lujan",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "87143652-dc98-4842-913e-cc59e112fa62",
+	"CeState": {
+		"CeId": "f1ZW0E1EIA-bjwQX4FwXsZceRJU",
+		"GroupId": "87143652-dc98-4842-913e-cc59e112fa62",
+		"Date": "2015-10-02T13:15:00Z",
+		"Competition": "Premier League Kenya",
+		"HomeTeam": "Mathare United FC",
+		"AwayTeam": "Nakuru Top Fry AllStars",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "d34d8fcb-5990-4452-9d87-4d4d7ff7c792",
+	"CeState": {
+		"CeId": "Zkh1LsfdkSjGULO65dcE7amwbjQ",
+		"GroupId": "d34d8fcb-5990-4452-9d87-4d4d7ff7c792",
+		"Date": "2015-10-02T18:45:00Z",
+		"Competition": "Wales Premier League",
+		"HomeTeam": "The New Saints",
+		"AwayTeam": "Bangor City",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "ed565ad1-a151-4d95-9b7e-592fa42c3e46",
+	"CeState": {
+		"CeId": "O7vqPsPymxIihnym6wmste4V8HE",
+		"GroupId": "ed565ad1-a151-4d95-9b7e-592fa42c3e46",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "Romania Liga I",
+		"HomeTeam": "Pandurii Targu Jiu",
+		"AwayTeam": "Viitorul Constanta",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "e81ce8d1-7ca3-4079-93d9-937a6762ae03",
+	"CeState": {
+		"CeId": "fZWBOYhRYvMVLlS4WJmZoqai3Z0",
+		"GroupId": "e81ce8d1-7ca3-4079-93d9-937a6762ae03",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "Germany Bundesliga 3",
+		"HomeTeam": "Holstein Kiel",
+		"AwayTeam": "FC Magdeburg",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "31ea795e-8d39-437b-a481-acba4645382d",
+	"CeState": {
+		"CeId": "BEkQt12b48jpMQc_qhzO8-kbGFU",
+		"GroupId": "31ea795e-8d39-437b-a481-acba4645382d",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "France Ligue 2",
+		"HomeTeam": "Le Havre",
+		"AwayTeam": "Chamois Niortais FC",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "b0872cc7-5d1f-4e8b-876b-812c22eaa7d2",
+	"CeState": {
+		"CeId": "NDOSCdP5nueJleei9bV5LVmo_Yo",
+		"GroupId": "b0872cc7-5d1f-4e8b-876b-812c22eaa7d2",
+		"Date": "2015-10-02T15:05:00Z",
+		"Competition": "India Federation Cup",
+		"HomeTeam": "Al Sahel",
+		"AwayTeam": "Al Fehaiheel",
+		"Provider": "RunningBall",
+		"IsExtraTime": true,
+		"IsPenalties": true
+	}
+},
+{
+	"Id": "a00c7a68-2f0b-4c2b-8180-e5b543589529",
+	"CeState": {
+		"CeId": "zlRQnohorO6MmbaGGb5b7SEGKj8",
+		"GroupId": "a00c7a68-2f0b-4c2b-8180-e5b543589529",
+		"Date": "2015-10-02T17:30:00Z",
+		"Competition": "Germany Regionalliga West",
+		"HomeTeam": "Rot-Weiss Essen",
+		"AwayTeam": "Viktoria Koln",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "847fce60-b61b-42b0-bdfb-1c68c6373758",
+	"CeState": {
+		"CeId": "_YSFnXl-wumw9SYwnkebYPG2xMg",
+		"GroupId": "847fce60-b61b-42b0-bdfb-1c68c6373758",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "FBMEX Segunda Division",
+		"HomeTeam": "Pachuca II",
+		"AwayTeam": "Cruz Azul Hidalgo",
+		"Provider": "SIS",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "22a23bba-b6d2-4fc8-b662-d6a3bc1656e3",
+	"CeState": {
+		"CeId": "Up0w9vKcCrNhn8QLjUN6RPJkktM",
+		"GroupId": "22a23bba-b6d2-4fc8-b662-d6a3bc1656e3",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "W-League Finals",
+		"HomeTeam": "Stade Lavallois",
+		"AwayTeam": "Creteil",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "120cf457-99ae-426c-8f01-0625f7ad99be",
+	"CeState": {
+		"CeId": "Iz43sKUeZQIM00B_DX0SPivKb6Q",
+		"GroupId": "120cf457-99ae-426c-8f01-0625f7ad99be",
+		"Date": "2015-10-02T16:30:00Z",
+		"Competition": "Germany Bundesliga 2",
+		"HomeTeam": "Arminia Bielefeld",
+		"AwayTeam": "1860 Munich",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "0cd34d25-0b4e-4951-a34c-9b1509e6c6ca",
+	"CeState": {
+		"CeId": "gJmpbOCrmNXGLXO9bXCOq7kebGs",
+		"GroupId": "0cd34d25-0b4e-4951-a34c-9b1509e6c6ca",
+		"Date": "2015-10-02T22:30:00Z",
+		"Competition": "Brazil Serie B",
+		"HomeTeam": "Criciuma",
+		"AwayTeam": "Parana",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "9b107cf3-b360-4db5-b51d-21322254ae79",
+	"CeState": {
+		"CeId": "Sm0S6WVjFOA5ZEd_TX2H4tFbAQc",
+		"GroupId": "9b107cf3-b360-4db5-b51d-21322254ae79",
+		"Date": "2015-10-03T01:00:00Z",
+		"Competition": "Mexico Division 2",
+		"HomeTeam": "Atlante",
+		"AwayTeam": "Altamira",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "cf6b4ebf-be9f-4686-92ed-82e04a697416",
+	"CeState": {
+		"CeId": "0oG-sKzZcw1jeiKgkrIBJduirvg",
+		"GroupId": "cf6b4ebf-be9f-4686-92ed-82e04a697416",
+		"Date": "2015-10-03T04:00:00Z",
+		"Competition": "Japan Football League",
+		"HomeTeam": "FC Maruyasu Okazaki",
+		"AwayTeam": "Ryutsu Keizai Dragons",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "6a365c2b-9272-4df4-afd8-d51c6688e43f",
+	"CeState": {
+		"CeId": "BW8mwhR1m5SZSVYLXBw3kdvz7ns",
+		"GroupId": "6a365c2b-9272-4df4-afd8-d51c6688e43f",
+		"Date": "2015-10-03T00:00:00Z",
+		"Competition": "Brazil Serie B",
+		"HomeTeam": "Sampaio Correa",
+		"AwayTeam": "Botafogo RJ",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "074061f9-ab3f-4d4b-903f-0ec49a9ecef5",
+	"CeState": {
+		"CeId": "IVY254lmb69l-ertFrGvrErkwwU",
+		"GroupId": "074061f9-ab3f-4d4b-903f-0ec49a9ecef5",
+		"Date": "2015-10-03T05:00:00Z",
+		"Competition": "Japan J League",
+		"HomeTeam": "Vegalta Sendai",
+		"AwayTeam": "Yokohama F. Marinos",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "f88afcf4-a9ff-4965-8dd7-f6f8cc5d8c25",
+	"CeState": {
+		"CeId": "-I0kr11uS4upjjLLgEP-oix_rTs",
+		"GroupId": "f88afcf4-a9ff-4965-8dd7-f6f8cc5d8c25",
+		"Date": "2015-10-02T18:30:00Z",
+		"Competition": "France Ligue 1",
+		"HomeTeam": "Lille",
+		"AwayTeam": "Montpellier HSC",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "df04eb7a-d8dd-4da9-803d-2f4e53decd24",
+	"CeState": {
+		"CeId": "A1_sUthKH9sesQUSCuBfSegEgvM",
+		"GroupId": "df04eb7a-d8dd-4da9-803d-2f4e53decd24",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "Netherlands Division 2",
+		"HomeTeam": "Almere City",
+		"AwayTeam": "Emmen",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "0f16239a-8445-435d-b04e-93bbddfeba82",
+	"CeState": {
+		"CeId": "JbKt3WIJJ5kKb4-PSZMtRItiCR8",
+		"GroupId": "0f16239a-8445-435d-b04e-93bbddfeba82",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "Germany Regionalliga Northeast",
+		"HomeTeam": "SV Babelsberg 03",
+		"AwayTeam": "RB Leipzig II",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "b411f665-c447-4eb9-a3e2-2de262370ce7",
+	"CeState": {
+		"CeId": "BTdW7A9pUhW-oOgGO3tT5wPbyMY",
+		"GroupId": "b411f665-c447-4eb9-a3e2-2de262370ce7",
+		"Date": "2015-10-02T19:30:00Z",
+		"Competition": "Portugal Primeira Liga",
+		"HomeTeam": "Vitoria Setubal",
+		"AwayTeam": "Estoril",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "4c1e81fd-81a3-4aa1-86cb-9a799f7aed13",
+	"CeState": {
+		"CeId": "QMchI7dYJM6dstmyWY1Ddu8WEOU",
+		"GroupId": "4c1e81fd-81a3-4aa1-86cb-9a799f7aed13",
+		"Date": "2015-10-02T15:00:00Z",
+		"Competition": "Greece National League",
+		"HomeTeam": "Lamia",
+		"AwayTeam": "Panaigialios",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "ec50dc90-474c-4c6c-b21c-fed63f648ddb",
+	"CeState": {
+		"CeId": "YyNq4LfpC9TbRo7W7qFDLkTCPnA",
+		"GroupId": "ec50dc90-474c-4c6c-b21c-fed63f648ddb",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "Brazil Paulista U20",
+		"HomeTeam": "EC Sao Bento U20",
+		"AwayTeam": "CA Juventus Sao Paulo U20",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "15a57290-5627-49c6-8628-e9bde434b45d",
+	"CeState": {
+		"CeId": "JjXedUIRY1DyBHe0n4_nqJo6f20",
+		"GroupId": "15a57290-5627-49c6-8628-e9bde434b45d",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "Netherlands Division 2",
+		"HomeTeam": "Den Bosch",
+		"AwayTeam": "Maastricht",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "b2c18334-16ff-4dd7-a60f-65bbfee00d4b",
+	"CeState": {
+		"CeId": "tf3K88Ra5Dp_4Aqs-bNHVr6-tts",
+		"GroupId": "b2c18334-16ff-4dd7-a60f-65bbfee00d4b",
+		"Date": "2015-10-02T17:30:00Z",
+		"Competition": "Australia W-League",
+		"HomeTeam": "Lija Athletic",
+		"AwayTeam": "Fgura United",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "c3c1a7a7-ae0e-41bc-ae12-b26007f64564",
+	"CeState": {
+		"CeId": "IL5QIgL8NfX1D2CZ9N1prm7SzXw",
+		"GroupId": "c3c1a7a7-ae0e-41bc-ae12-b26007f64564",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "Netherlands Division 2",
+		"HomeTeam": "Go Ahead Eagles",
+		"AwayTeam": "Sparta Rotterdam",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "481e5229-b26a-4f36-8a6f-4307326a9a39",
+	"CeState": {
+		"CeId": "JXYoInqHp1RWR5VAESiEah3f8m4",
+		"GroupId": "481e5229-b26a-4f36-8a6f-4307326a9a39",
+		"Date": "2015-10-02T16:30:00Z",
+		"Competition": "Austria Erste Liga",
+		"HomeTeam": "St Polten",
+		"AwayTeam": "Austria Lustenau",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "1896e211-d285-46a0-92e4-c09743d0d297",
+	"CeState": {
+		"CeId": "0kRMdFzZ0309IOY1pqnfi4q4Wdo",
+		"GroupId": "1896e211-d285-46a0-92e4-c09743d0d297",
+		"Date": "2015-10-02T15:00:00Z",
+		"Competition": "Latvia 1 Liga",
+		"HomeTeam": "Skonto Riga",
+		"AwayTeam": "FS METTA LU",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "6f84986b-7354-4974-a342-ad578653eb78",
+	"CeState": {
+		"CeId": "BsAHLzDTNGIEMOtA1cMrxKhVmsY",
+		"GroupId": "6f84986b-7354-4974-a342-ad578653eb78",
+		"Date": "2015-10-02T16:30:00Z",
+		"Competition": "Turkey 1. Lig",
+		"HomeTeam": "Boluspor",
+		"AwayTeam": "Trabzon Karadeniz",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "0dcdefb5-e041-4194-a9e3-a9442bcc51eb",
+	"CeState": {
+		"CeId": "B-FkVxbU8HIyiKDZuVJcPais8o8",
+		"GroupId": "0dcdefb5-e041-4194-a9e3-a9442bcc51eb",
+		"Date": "2015-10-02T16:00:00Z",
+		"Competition": "Poland Division 1",
+		"HomeTeam": "Dolcan Zabki",
+		"AwayTeam": "MZKS Chrobry Glogow",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "aa40fd3c-1408-48ee-b853-99fd5faf055d",
+	"CeState": {
+		"CeId": "rVsNu32ZoiC3lk6IpomPHAi0Mk0",
+		"GroupId": "aa40fd3c-1408-48ee-b853-99fd5faf055d",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "UNKNOWN",
+		"HomeTeam": "FC Wegberg-Beeck",
+		"AwayTeam": "RW Ahlen",
+		"Provider": "SIS",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "66bf3386-d5d2-42b6-9060-553efab51f43",
+	"CeState": {
+		"CeId": "DK0gvQjmDG9gCS-5RtcdnN5Iua0",
+		"GroupId": "66bf3386-d5d2-42b6-9060-553efab51f43",
+		"Date": "2015-10-02T13:00:00Z",
+		"Competition": "Jordan 1st Division",
+		"HomeTeam": "Al Teeba",
+		"AwayTeam": "Al Jalil",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "954a64be-4848-483a-ab59-55b1bc5e834e",
+	"CeState": {
+		"CeId": "GzQtTJsu2bPwCNXZaxPod2xXRCQ",
+		"GroupId": "954a64be-4848-483a-ab59-55b1bc5e834e",
+		"Date": "2015-10-02T16:00:00Z",
+		"Competition": "Algeria Division 1",
+		"HomeTeam": "MO Bejaia",
+		"AwayTeam": "CR Belouizdad",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "3df2fb5e-c38f-42f5-8021-9e42b9254bc6",
+	"CeState": {
+		"CeId": "aX7uov_gVgSd4Amdfra42kcf5BA",
+		"GroupId": "3df2fb5e-c38f-42f5-8021-9e42b9254bc6",
+		"Date": "2015-10-02T16:00:00Z",
+		"Competition": "Denmark Superleague",
+		"HomeTeam": "FC Nordsjaelland",
+		"AwayTeam": "OB Odense BK",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "902260ee-da7f-4f6f-b235-3a8af3577b6b",
+	"CeState": {
+		"CeId": "BLG3bF78ABsTREGRxmS2oF7hVVI",
+		"GroupId": "902260ee-da7f-4f6f-b235-3a8af3577b6b",
+		"Date": "2015-10-02T15:00:00Z",
+		"Competition": "Denmark U19 League",
+		"HomeTeam": "AGF Fodbold U19",
+		"AwayTeam": "FC Kobenhavn U19",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "4cd121de-8f99-49a6-8622-2a0a90aff193",
+	"CeState": {
+		"CeId": "ss6nzqfZE6pBp-z09VNsQc_HpBk",
+		"GroupId": "4cd121de-8f99-49a6-8622-2a0a90aff193",
+		"Date": "2015-10-02T12:00:00Z",
+		"Competition": "Romania Liga III - Seria 4",
+		"HomeTeam": "CS Pandurii Targu Jiu II",
+		"AwayTeam": "AS Magura Cisnadie",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "77cfe81b-050c-438c-934d-59621989dc0b",
+	"CeState": {
+		"CeId": "x3TUs1h24eqgPAEC7rAJHVdNO3M",
+		"GroupId": "77cfe81b-050c-438c-934d-59621989dc0b",
+		"Date": "2015-10-02T17:30:00Z",
+		"Competition": "Super League (women)",
+		"HomeTeam": "Oud Heverlee Leuven (Women)",
+		"AwayTeam": "KRC Genk (women)",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "e3756a14-0dbc-4458-b10e-27fd0bd96346",
+	"CeState": {
+		"CeId": "oIMv_68G6_j2iQ_qQjvRcvowKlk",
+		"GroupId": "e3756a14-0dbc-4458-b10e-27fd0bd96346",
+		"Date": "2015-10-02T16:30:00Z",
+		"Competition": "Germany Bundesliga 2",
+		"HomeTeam": "Kaiserslautern",
+		"AwayTeam": "Fortuna Dusseldorf",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "ddeeae62-dfc4-41b4-b7cf-93d7a4ce204a",
+	"CeState": {
+		"CeId": "vjs23Gcjzcr9R7sZeVMzrh5ECmw",
+		"GroupId": "ddeeae62-dfc4-41b4-b7cf-93d7a4ce204a",
+		"Date": "2015-10-02T18:45:00Z",
+		"Competition": "Ireland Leinster Senior Cup",
+		"HomeTeam": "Bohemians FC",
+		"AwayTeam": "Shamrock Rovers",
+		"Provider": "RunningBall",
+		"IsExtraTime": true,
+		"IsPenalties": true
+	}
+},
+{
+	"Id": "e298075d-ac03-40b1-b7db-b56c8bbaebb1",
+	"CeState": {
+		"CeId": "ts2CXp_DqiVkGLZav75s4vIfKsY",
+		"GroupId": "e298075d-ac03-40b1-b7db-b56c8bbaebb1",
+		"Date": "2015-10-02T18:30:00Z",
+		"Competition": "Belgium Division 2",
+		"HomeTeam": "Seraing Utd",
+		"AwayTeam": "Antwerp",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "2730b361-9425-4b42-bd7d-9ad80c032f2f",
+	"CeState": {
+		"CeId": "AaQS-XdO0wHVgn-YkjZdECT4cno",
+		"GroupId": "2730b361-9425-4b42-bd7d-9ad80c032f2f",
+		"Date": "2015-10-02T12:00:00Z",
+		"Competition": "Turkey Division 2 Kirmizi",
+		"HomeTeam": "Ankaragucu",
+		"AwayTeam": "Aydinspor",
+		"Provider": "SIS",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "5e474924-e29b-4653-8b1f-2e1b4ef3cc9c",
+	"CeState": {
+		"CeId": "SP0tOv_hzRLYDDKBwSFROb5zXTw",
+		"GroupId": "5e474924-e29b-4653-8b1f-2e1b4ef3cc9c",
+		"Date": "2015-10-02T18:45:00Z",
+		"Competition": "England Conference North",
+		"HomeTeam": "FC United of Manchester",
+		"AwayTeam": "Worcester",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "b498c564-4c0e-4de6-a0d0-1aaf06e85228",
+	"CeState": {
+		"CeId": "r5YtJxc2OeLndN2Pw6xocMigfxs",
+		"GroupId": "b498c564-4c0e-4de6-a0d0-1aaf06e85228",
+		"Date": "2015-10-02T14:00:00Z",
+		"Competition": "Croatia 2. HNL",
+		"HomeTeam": "HIT Gorica",
+		"AwayTeam": "HNK Segesta Sisak",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "adef8bf9-8da7-4265-91ee-2d54b3e3e596",
+	"CeState": {
+		"CeId": "tuSgeR4gaT_teG1ZW3AKWOyysxs",
+		"GroupId": "adef8bf9-8da7-4265-91ee-2d54b3e3e596",
+		"Date": "2015-10-02T18:30:00Z",
+		"Competition": "Germany Bundesliga 1",
+		"HomeTeam": "SV Darmstadt 98",
+		"AwayTeam": "Mainz 05",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "d98bf1c2-54a7-4e94-bac2-e31799264ee3",
+	"CeState": {
+		"CeId": "SfjW4RZarW1_mbKA-IfiOtmim0A",
+		"GroupId": "d98bf1c2-54a7-4e94-bac2-e31799264ee3",
+		"Date": "2015-10-02T17:30:00Z",
+		"Competition": "Super League (women)",
+		"HomeTeam": "Standard de Liege (Women)",
+		"AwayTeam": "KSK Heist (women)",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "aa3303e6-698a-4259-b111-02b5c55ec665",
+	"CeState": {
+		"CeId": "eO7LFhw3EEhlUr_dhI9AVpH4Ybc",
+		"GroupId": "aa3303e6-698a-4259-b111-02b5c55ec665",
+		"Date": "2015-10-02T17:30:00Z",
+		"Competition": "Vrouwen Eredivisie",
+		"HomeTeam": "SC Heerenveen (Women)",
+		"AwayTeam": "PSV/FC Eindhoven (Women)",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "99e8ac3d-54ef-4951-8bda-db648e9b8c18",
+	"CeState": {
+		"CeId": "c8QVr-2epM0hd0k4PVIlOQOnuts",
+		"GroupId": "99e8ac3d-54ef-4951-8bda-db648e9b8c18",
+		"Date": "2015-10-02T16:00:00Z",
+		"Competition": "Croatian Division 1",
+		"HomeTeam": "Nk Lokomotiva Zagreb",
+		"AwayTeam": "Slaven Belupo",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "db63eed8-83ff-4ee5-98b1-4207d993292b",
+	"CeState": {
+		"CeId": "S1A1_XZb_Yh5B-MP_39XkhgTZ_o",
+		"GroupId": "db63eed8-83ff-4ee5-98b1-4207d993292b",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "France National",
+		"HomeTeam": "Chateauroux",
+		"AwayTeam": "US Avranches",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "12389fb6-7850-4bfb-9b8b-2305f3ad7f00",
+	"CeState": {
+		"CeId": "BuHIWOSopdw24WEO1a_HfT-lH_I",
+		"GroupId": "12389fb6-7850-4bfb-9b8b-2305f3ad7f00",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "Netherlands Division 2",
+		"HomeTeam": "NAC Breda",
+		"AwayTeam": "VVV Venlo",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "0dff7d74-bd26-4f61-916c-640f08e92d05",
+	"CeState": {
+		"CeId": "0p05KSvO3YvKn15CJxdp70hdPI0",
+		"GroupId": "0dff7d74-bd26-4f61-916c-640f08e92d05",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "France National",
+		"HomeTeam": "Chambly Thelle",
+		"AwayTeam": "Strasbourg",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "0fe24b80-ce47-4f18-b988-08951dd37eb1",
+	"CeState": {
+		"CeId": "zDtU4xVf9IMg6OcbV8QO8MYHoDY",
+		"GroupId": "0fe24b80-ce47-4f18-b988-08951dd37eb1",
+		"Date": "2015-10-02T18:30:00Z",
+		"Competition": "Super League (women)",
+		"HomeTeam": "KAA Gent (Women)",
+		"AwayTeam": "Lierse SK (Women)",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "0fa11167-fe79-4100-af12-adf8c9557ab4",
+	"CeState": {
+		"CeId": "5jO0GT6GWXFye63Eex0YXnEQdzU",
+		"GroupId": "0fa11167-fe79-4100-af12-adf8c9557ab4",
+		"Date": "2015-10-02T13:00:00Z",
+		"Competition": "U21 League Ukraine",
+		"HomeTeam": "FC Shakhtar Donetsk (Reserves)",
+		"AwayTeam": "FK Chornomorets Odessa (Reserves)",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "827a401e-4528-4850-8122-8516766fcc3d",
+	"CeState": {
+		"CeId": "sRZDyAiKOkEMixb6AXoOXDD2sGw",
+		"GroupId": "827a401e-4528-4850-8122-8516766fcc3d",
+		"Date": "2015-10-02T14:45:00Z",
+		"Competition": "Qatari Stars League",
+		"HomeTeam": "Al Rayyan",
+		"AwayTeam": "Al-Mesaimeer",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "910422f9-e621-40b7-b09a-b4d220490149",
+	"CeState": {
+		"CeId": "yAukYxJa80qPLeFQQraVMGl4c2A",
+		"GroupId": "910422f9-e621-40b7-b09a-b4d220490149",
+		"Date": "2015-10-02T18:30:00Z",
+		"Competition": "Austria Erste Liga",
+		"HomeTeam": "LASK Linz",
+		"AwayTeam": "FC Wacker Innsbruck",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "7d1b7924-886b-4878-99c8-bccd67f66454",
+	"CeState": {
+		"CeId": "GiSr6sr2A6oPX1bjXoxU1nlbUOQ",
+		"GroupId": "7d1b7924-886b-4878-99c8-bccd67f66454",
+		"Date": "2015-10-02T18:45:00Z",
+		"Competition": "England Championship",
+		"HomeTeam": "Rotherham",
+		"AwayTeam": "Burnley",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "df579c7a-1bb9-4466-9c67-19e18cfa8fad",
+	"CeState": {
+		"CeId": "AjbPIvIWiaFKwcGFRI7gOmbDBOk",
+		"GroupId": "df579c7a-1bb9-4466-9c67-19e18cfa8fad",
+		"Date": "2015-10-02T18:45:00Z",
+		"Competition": "FA Trophy - Qualification",
+		"HomeTeam": "Romulus",
+		"AwayTeam": "Gresley Rovers",
+		"Provider": "RunningBall",
+		"IsExtraTime": true,
+		"IsPenalties": true
+	}
+},
+{
+	"Id": "c3156229-80ae-410e-b8c0-36a2f2077157",
+	"CeState": {
+		"CeId": "YFSyHn4MudFjT5qfAUQ7H7MPlGM",
+		"GroupId": "c3156229-80ae-410e-b8c0-36a2f2077157",
+		"Date": "2015-10-02T17:30:00Z",
+		"Competition": "Germany Regionalliga West",
+		"HomeTeam": "Rot-Weiss Essen",
+		"AwayTeam": "Viktoria Koln",
+		"Provider": "",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "ed09b4fd-7d75-4257-a1c1-87fc61941b5d",
+	"CeState": {
+		"CeId": "ni3X6rZIhq6t0XcNs6aWN2lftQM",
+		"GroupId": "ed09b4fd-7d75-4257-a1c1-87fc61941b5d",
+		"Date": "2015-10-02T18:30:00Z",
+		"Competition": "Italy Serie B",
+		"HomeTeam": "Crotone",
+		"AwayTeam": "Salernitana",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "35f156cf-6824-41ed-bcf3-d91901d3f575",
+	"CeState": {
+		"CeId": "EPJLCy_ifAw-579UvNNehVyZKtM",
+		"GroupId": "35f156cf-6824-41ed-bcf3-d91901d3f575",
+		"Date": "2015-10-02T12:00:00Z",
+		"Competition": "Romania Liga III - Seria 2",
+		"HomeTeam": "Dinamo Bucharest II",
+		"AwayTeam": "Metaloglobus Bucuresti",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "a44ed2ca-7699-4604-a33e-872c6d99ea56",
+	"CeState": {
+		"CeId": "dTgbB9D_RwV9Uhr1EefvXUeDPVo",
+		"GroupId": "a44ed2ca-7699-4604-a33e-872c6d99ea56",
+		"Date": "2015-10-03T00:30:00Z",
+		"Competition": "Mexico Primera Division",
+		"HomeTeam": "Queretaro FC",
+		"AwayTeam": "Club Tijuana",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "8f9cabe8-32db-4fe2-969d-2f1e7c524159",
+	"CeState": {
+		"CeId": "C9ym-pfjZ6X8JT9Jin_Xm7wWKAc",
+		"GroupId": "8f9cabe8-32db-4fe2-969d-2f1e7c524159",
+		"Date": "2015-10-02T16:00:00Z",
+		"Competition": "Germany Women's Division 1",
+		"HomeTeam": "VfL Wolfsburg (Women)",
+		"AwayTeam": "SC Freiburg (Women)",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "47b5af95-5f45-4028-a597-de601edd337f",
+	"CeState": {
+		"CeId": "uaashcU2eUMyeH5TuYbhBvuJJlA",
+		"GroupId": "47b5af95-5f45-4028-a597-de601edd337f",
+		"Date": "2015-10-02T12:00:00Z",
+		"Competition": "Romania Liga III - Seria 2",
+		"HomeTeam": "CS Juventus Bucuresti",
+		"AwayTeam": "CSM Oltenita",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "39c584f7-ba14-482c-bcf5-4311ce3e5247",
+	"CeState": {
+		"CeId": "himy7OqSAHOkQ-T3GQoxzobIA7I",
+		"GroupId": "39c584f7-ba14-482c-bcf5-4311ce3e5247",
+		"Date": "2015-10-02T18:45:00Z",
+		"Competition": "England Conference Premier",
+		"HomeTeam": "Guiseley AFC",
+		"AwayTeam": "Lincoln City",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "2a04705a-4f40-47e3-8ae6-9b49a32f5e13",
+	"CeState": {
+		"CeId": "3KyFISlBExp5JzOj7pAYvSOej9w",
+		"GroupId": "2a04705a-4f40-47e3-8ae6-9b49a32f5e13",
+		"Date": "2015-10-02T12:00:00Z",
+		"Competition": "Romania Liga III - Seria 1",
+		"HomeTeam": "ACS Bucovina Radauti",
+		"AwayTeam": "Zagon",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "e9dc4291-533d-4612-866f-8593c3cea062",
+	"CeState": {
+		"CeId": "hcde5Th2JPAQK6x6QzVY4ShgTRM",
+		"GroupId": "e9dc4291-533d-4612-866f-8593c3cea062",
+		"Date": "2015-10-02T18:30:00Z",
+		"Competition": "Spain Primera Division",
+		"HomeTeam": "Celta Vigo",
+		"AwayTeam": "Getafe",
+		"Provider": "SIS",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "49873770-3d48-475d-bedd-83e4135e4691",
+	"CeState": {
+		"CeId": "HmKUOJCaMdEvyWCHiVfiEKk3gn4",
+		"GroupId": "49873770-3d48-475d-bedd-83e4135e4691",
+		"Date": "2015-10-02T18:30:00Z",
+		"Competition": "France National",
+		"HomeTeam": "Frejus St-Raphael",
+		"AwayTeam": "US Orleans Loiret Football",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "202f570c-03ec-4716-9d8f-2a4a34353b6a",
+	"CeState": {
+		"CeId": "w8Oanis308Hpyrq-E_wOi1RIETg",
+		"GroupId": "202f570c-03ec-4716-9d8f-2a4a34353b6a",
+		"Date": "2015-10-02T13:00:00Z",
+		"Competition": "Jordan 1st Division",
+		"HomeTeam": "Blama",
+		"AwayTeam": "Sahab SC",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "3524d010-fe6c-457c-a1b6-8a7bb837b997",
+	"CeState": {
+		"CeId": "huRny2DdF-MqvAA3G3bu-tMhlwk",
+		"GroupId": "3524d010-fe6c-457c-a1b6-8a7bb837b997",
+		"Date": "2015-10-02T16:00:00Z",
+		"Competition": "Estonia Division 1",
+		"HomeTeam": "Flora Tallinn",
+		"AwayTeam": "JK Vaprus Parnu",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "f23f7cba-cfff-46be-9545-331a1229fa9e",
+	"CeState": {
+		"CeId": "xbXm30sXSNds1hJfbIg9QtE12BA",
+		"GroupId": "f23f7cba-cfff-46be-9545-331a1229fa9e",
+		"Date": "2015-10-02T18:30:00Z",
+		"Competition": "Premier Division Gibraltar",
+		"HomeTeam": "Lynx FC",
+		"AwayTeam": "Manchester 62 FC",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "43a57827-0e0f-4aa3-99a3-77b1def900f6",
+	"CeState": {
+		"CeId": "7gIcv2jnQiRrpI-9d4mPGGOEWSA",
+		"GroupId": "43a57827-0e0f-4aa3-99a3-77b1def900f6",
+		"Date": "2015-10-02T15:05:00Z",
+		"Competition": "India Federation Cup",
+		"HomeTeam": "Kazma SC",
+		"AwayTeam": "Burgan SC",
+		"Provider": "RunningBall",
+		"IsExtraTime": true,
+		"IsPenalties": true
+	}
+},
+{
+	"Id": "1dd0d6a2-75a4-4146-9bb7-57cb014b4109",
+	"CeState": {
+		"CeId": "zEBWahg7AFf4gGW3JOcDSUWZ95s",
+		"GroupId": "1dd0d6a2-75a4-4146-9bb7-57cb014b4109",
+		"Date": "2015-10-02T18:30:00Z",
+		"Competition": "Poland Ekstraklasa",
+		"HomeTeam": "Jagiellonia Bialystok",
+		"AwayTeam": "Lechia Gdansk",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "d3d63cc7-8957-4c5d-a346-23c0101ea35e",
+	"CeState": {
+		"CeId": "lEDNiPLby0XQqRA53Vhfu1JG-1g",
+		"GroupId": "d3d63cc7-8957-4c5d-a346-23c0101ea35e",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "Netherlands Eredivisie",
+		"HomeTeam": "Heracles Almelo",
+		"AwayTeam": "Heerenveen",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "c85728ad-8e62-47bb-82b8-14d4e3fa8d87",
+	"CeState": {
+		"CeId": "FcFyoMWhHhPKDEcWdkoBCwZ_D8w",
+		"GroupId": "c85728ad-8e62-47bb-82b8-14d4e3fa8d87",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "France Ligue 2",
+		"HomeTeam": "Evian Thonon Gaillard",
+		"AwayTeam": "Lens",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "ff3a8a91-3af3-4070-b7dd-9d28d9921525",
+	"CeState": {
+		"CeId": "0iXMnBnfXm7mwJLYw4bVcXm3XuQ",
+		"GroupId": "ff3a8a91-3af3-4070-b7dd-9d28d9921525",
+		"Date": "2015-10-02T13:00:00Z",
+		"Competition": "International Friendly",
+		"HomeTeam": "Al Taibah",
+		"AwayTeam": "Al Jalil",
+		"Provider": "SIS",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "4ddfd1f0-e285-45df-8fcb-fc181f09c871",
+	"CeState": {
+		"CeId": "DoeOe-nqXvBqmmDbBcbOTmxH2MQ",
+		"GroupId": "4ddfd1f0-e285-45df-8fcb-fc181f09c871",
+		"Date": "2015-10-02T17:30:00Z",
+		"Competition": "FBINT AFC U19 Championship",
+		"HomeTeam": "Oman U19",
+		"AwayTeam": "Lebanon U19",
+		"Provider": "SIS",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "5e893b3f-aa9d-4875-8d27-26f01db7de37",
+	"CeState": {
+		"CeId": "o8QM4I1K5aLuiFKIRjdW13lN-PY",
+		"GroupId": "5e893b3f-aa9d-4875-8d27-26f01db7de37",
+		"Date": "2015-10-02T14:00:00Z",
+		"Competition": "Algeria Ligue 1 - U21",
+		"HomeTeam": "CS Constantine U21",
+		"AwayTeam": "USM El Harrach U21",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "6c781c32-d678-4428-94ca-9c933b0af0a2",
+	"CeState": {
+		"CeId": "n5jZvtHpEIla4J14eMk9uyKdH3Y",
+		"GroupId": "6c781c32-d678-4428-94ca-9c933b0af0a2",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "France Ligue 2",
+		"HomeTeam": "Auxerre",
+		"AwayTeam": "Paris FC",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "72bc53b8-176d-4109-8420-7a0dc0bed878",
+	"CeState": {
+		"CeId": "96nWqjp2GDfnNC2Lnb6vmVkTEpc",
+		"GroupId": "72bc53b8-176d-4109-8420-7a0dc0bed878",
+		"Date": "2015-10-02T18:45:00Z",
+		"Competition": "Ireland Premier League",
+		"HomeTeam": "Galway FC",
+		"AwayTeam": "Sligo Rovers",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "f97fe296-eaa8-40eb-b167-aa121bd073f8",
+	"CeState": {
+		"CeId": "yOt4iMhT5g_ypfdkS_a7uMp2Ur8",
+		"GroupId": "f97fe296-eaa8-40eb-b167-aa121bd073f8",
+		"Date": "2015-10-02T16:00:00Z",
+		"Competition": "Poland Ekstraklasa",
+		"HomeTeam": "Ruch Chorzow",
+		"AwayTeam": "MKS Pogon Szczecin",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "902ad07b-cffa-46c0-9432-f6232cb3f3df",
+	"CeState": {
+		"CeId": "4fwtxNgywpeaPNpGSK3ecVvgKIo",
+		"GroupId": "902ad07b-cffa-46c0-9432-f6232cb3f3df",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "Algeria Division 1",
+		"HomeTeam": "CS Constantine",
+		"AwayTeam": "USM El Harrach",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "dc4d9c1b-7bef-4fa3-a2a4-81e5b7d3f305",
+	"CeState": {
+		"CeId": "xQacZqhUfpPcO4xy---5qdfc1os",
+		"GroupId": "dc4d9c1b-7bef-4fa3-a2a4-81e5b7d3f305",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "Brazil Paulista U20",
+		"HomeTeam": "Sao Jose dos Campos FC U20",
+		"AwayTeam": "Associacao Portuguesa de Desportos U20",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "cb3ced4d-f680-49fd-9cba-c7074d3e3900",
+	"CeState": {
+		"CeId": "D7BAg1Uett0kjfyXO_Dfq1IrqiU",
+		"GroupId": "cb3ced4d-f680-49fd-9cba-c7074d3e3900",
+		"Date": "2015-10-02T16:00:00Z",
+		"Competition": "Czech Republic Division 2",
+		"HomeTeam": "Usti nad Labem",
+		"AwayTeam": "Trinec",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "7293c270-6cd7-4dac-8e7d-021c4cab57e6",
+	"CeState": {
+		"CeId": "xrqxJnEe_QedJ8K2xILpMp3CSnc",
+		"GroupId": "7293c270-6cd7-4dac-8e7d-021c4cab57e6",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "France Ligue 2",
+		"HomeTeam": "Nimes Olympique",
+		"AwayTeam": "Red Star FC 93",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "dc9e0849-0bbf-427f-9af5-f94186fa7a4d",
+	"CeState": {
+		"CeId": "LHpS7Hh6UIM82DkzTHzu-1dchTk",
+		"GroupId": "dc9e0849-0bbf-427f-9af5-f94186fa7a4d",
+		"Date": "2015-10-02T20:00:00Z",
+		"Competition": "Spain Tercera Division",
+		"HomeTeam": "UD Ibarra",
+		"AwayTeam": "CD Marino",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "36ac8ffa-de77-4517-b1d3-f3c2705408ca",
+	"CeState": {
+		"CeId": "a2RPOqU0Hk-I4HUC02rNlDoKoAE",
+		"GroupId": "36ac8ffa-de77-4517-b1d3-f3c2705408ca",
+		"Date": "2015-10-02T14:00:00Z",
+		"Competition": "Tunisia Division 1",
+		"HomeTeam": "ES Tunis",
+		"AwayTeam": "Hammam-Lif",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "cef19137-2805-4aa2-a6bb-992869d67911",
+	"CeState": {
+		"CeId": "CWE6q85npOWAAfA3UTfa5-aNwy4",
+		"GroupId": "cef19137-2805-4aa2-a6bb-992869d67911",
+		"Date": "2015-10-02T16:00:00Z",
+		"Competition": "Slovakia Super Liga",
+		"HomeTeam": "Slovan Bratislava",
+		"AwayTeam": "Zlate Moravce",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "658e3b26-b1b3-4e0f-a1af-0caa68d94dbb",
+	"CeState": {
+		"CeId": "fWrNBjwWSoj8bThR8NWtZUN9vB0",
+		"GroupId": "658e3b26-b1b3-4e0f-a1af-0caa68d94dbb",
+		"Date": "2015-10-02T12:30:00Z",
+		"Competition": "Israel Liga Leumit",
+		"HomeTeam": "Hapoel Nir Ramat HaSharon",
+		"AwayTeam": "Maccabi Herzliya",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "07aa20c9-9b66-416e-a716-673bb3c624b1",
+	"CeState": {
+		"CeId": "fuPIm6zS78EUXT6fxRjsnHktlgo",
+		"GroupId": "07aa20c9-9b66-416e-a716-673bb3c624b1",
+		"Date": "2015-10-02T23:10:00Z",
+		"Competition": "Paraguay Primera Division",
+		"HomeTeam": "General Diaz",
+		"AwayTeam": "Nacional (Par)",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "56c494f3-4ce3-4d3b-beb1-32ce637b806b",
+	"CeState": {
+		"CeId": "5283ZoWJHkzWZO389H8x-GwE1Zc",
+		"GroupId": "56c494f3-4ce3-4d3b-beb1-32ce637b806b",
+		"Date": "2015-10-03T01:00:00Z",
+		"Competition": "Chile Primera Division",
+		"HomeTeam": "San Marcos Arica",
+		"AwayTeam": "Huachipato",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "cb00f8b0-575b-475d-9f91-979e0d5e02d7",
+	"CeState": {
+		"CeId": "eAi3Szti2LNPXRZ2SSqbz1vExSg",
+		"GroupId": "cb00f8b0-575b-475d-9f91-979e0d5e02d7",
+		"Date": "2015-10-02T23:00:00Z",
+		"Competition": "Argentina Primera Division",
+		"HomeTeam": "Belgrano de Cordoba",
+		"AwayTeam": "Defensa y Justicia",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "b09e1584-a957-4eb2-84b0-82ae9bafe643",
+	"CeState": {
+		"CeId": "6M4G8TupolTVwWbn_jOpCe73Juk",
+		"GroupId": "b09e1584-a957-4eb2-84b0-82ae9bafe643",
+		"Date": "2015-10-03T00:30:00Z",
+		"Competition": "Mexico Division 2",
+		"HomeTeam": "Mineros de Zacatecas",
+		"AwayTeam": "Cimarrones de Sonora",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "0c3cfa0e-3951-44bf-9f7f-1ed7338fa2b9",
+	"CeState": {
+		"CeId": "OQ3ePxnpAq45zNVlT69FSle6_Bs",
+		"GroupId": "0c3cfa0e-3951-44bf-9f7f-1ed7338fa2b9",
+		"Date": "2015-10-02T17:30:00Z",
+		"Competition": "Vrouwen Eredivisie",
+		"HomeTeam": "PEC Zwolle (Women)",
+		"AwayTeam": "SC Telstar VVNH (Women)",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "45341a66-c8e6-4921-a8bb-a3d2e1b9b4fa",
+	"CeState": {
+		"CeId": "dzkXW6YplcxccFYZS7Ep85hFqRw",
+		"GroupId": "45341a66-c8e6-4921-a8bb-a3d2e1b9b4fa",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "Morocco Division 1",
+		"HomeTeam": "Olympic Safi",
+		"AwayTeam": "OCK Khouribga",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "a7524d2f-a95e-412b-9bf2-1cacc7df9119",
+	"CeState": {
+		"CeId": "Sju6oKl2BOP2xL-CU-QfLh3kr7Q",
+		"GroupId": "a7524d2f-a95e-412b-9bf2-1cacc7df9119",
+		"Date": "2015-10-02T16:30:00Z",
+		"Competition": "Austria Erste Liga",
+		"HomeTeam": "FC Wiener Neustadt",
+		"AwayTeam": "SV Austria Salzburg",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "003d870e-6824-4b54-aa81-efe6773a0a7e",
+	"CeState": {
+		"CeId": "y9qnfv-LkYipl-yOvoAohpQByi4",
+		"GroupId": "003d870e-6824-4b54-aa81-efe6773a0a7e",
+		"Date": "2015-10-02T13:00:00Z",
+		"Competition": "Romania Division 2-2",
+		"HomeTeam": "FC Olimpia Satu Mare",
+		"AwayTeam": "Gaz Metan Medias",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "198825df-0d22-4362-ae23-9f06b4c04713",
+	"CeState": {
+		"CeId": "hWonT2KXdgzDdle5gq_Pw5LSvHI",
+		"GroupId": "198825df-0d22-4362-ae23-9f06b4c04713",
+		"Date": "2015-10-02T17:30:00Z",
+		"Competition": "Germany Regionalliga Nord",
+		"HomeTeam": "Cloppenberg",
+		"AwayTeam": "Lubeck",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "f05fa43a-3ee8-4cd3-8610-9c86479aac94",
+	"CeState": {
+		"CeId": "zz1xsLBlH3JetHe8Da53B441T4I",
+		"GroupId": "f05fa43a-3ee8-4cd3-8610-9c86479aac94",
+		"Date": "2015-10-02T17:30:00Z",
+		"Competition": "Austrian Regionalliga East",
+		"HomeTeam": "SV Horn",
+		"AwayTeam": "FC Stadlau",
+		"Provider": "SIS",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "0c04ab4a-15d1-48eb-a6b3-55bcaf6e6591",
+	"CeState": {
+		"CeId": "w1Ra04J39tk95LSi_QZI3P34z88",
+		"GroupId": "0c04ab4a-15d1-48eb-a6b3-55bcaf6e6591",
+		"Date": "2015-10-02T18:15:00Z",
+		"Competition": "Czech Republic Division 1",
+		"HomeTeam": "Banik Ostrava",
+		"AwayTeam": "SK Sigma Olomouc",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "5321423c-db3f-4401-8244-e555e916f4db",
+	"CeState": {
+		"CeId": "Wz9cFLHyZzL3PKBAvXzCDt2ity8",
+		"GroupId": "5321423c-db3f-4401-8244-e555e916f4db",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "Netherlands Division 2",
+		"HomeTeam": "Dordrecht",
+		"AwayTeam": "Jong Ajax",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "d663f6a6-b60e-417b-a490-297773c5d10a",
+	"CeState": {
+		"CeId": "C1-9CP0PpazP_0TmzBhiOGgCfxY",
+		"GroupId": "d663f6a6-b60e-417b-a490-297773c5d10a",
+		"Date": "2015-10-02T15:00:00Z",
+		"Competition": "UEFA U17 Championship Qualification",
+		"HomeTeam": "Montenegro U17",
+		"AwayTeam": "Russia U17",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": true
+	}
+},
+{
+	"Id": "60c610a6-3d01-4ae3-8b8f-2940406a6659",
+	"CeState": {
+		"CeId": "uGdPOyd-d0XNTKqzX1ywHavGh_o",
+		"GroupId": "60c610a6-3d01-4ae3-8b8f-2940406a6659",
+		"Date": "2015-10-03T00:00:00Z",
+		"Competition": "OFC U20 Women's Championship",
+		"HomeTeam": "New Zealand (Women) U20",
+		"AwayTeam": "New Caledonia Women U20",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "8014b96a-86e1-47f7-bf5a-4ba9e7a2eb0b",
+	"CeState": {
+		"CeId": "NgPG8TEVQuim05JNK1RdhlZgps0",
+		"GroupId": "8014b96a-86e1-47f7-bf5a-4ba9e7a2eb0b",
+		"Date": "2015-10-03T01:00:00Z",
+		"Competition": "Colombia Primera A",
+		"HomeTeam": "La Equidad",
+		"AwayTeam": "Once Caldas",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "36c136bc-bcb5-472c-a1a7-389309031711",
+	"CeState": {
+		"CeId": "aOY-RCtXUZn0_pK3w1U1C0f36Bc",
+		"GroupId": "36c136bc-bcb5-472c-a1a7-389309031711",
+		"Date": "2015-10-02T23:00:00Z",
+		"Competition": "US Major League Soccer",
+		"HomeTeam": "D.C. United",
+		"AwayTeam": "New York City",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "b9f6054b-7822-40da-bd38-6b24e48f36b3",
+	"CeState": {
+		"CeId": "NGyKXvob2M0fphV6WWylrG6AW7M",
+		"GroupId": "b9f6054b-7822-40da-bd38-6b24e48f36b3",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "Norwegian Tippeligaen",
+		"HomeTeam": "Bodo Glimt",
+		"AwayTeam": "Valerenga",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "0bb85b26-a5fe-407a-aef8-8c2fade68d3d",
+	"CeState": {
+		"CeId": "WT-IGnNgwE3_55QongWTnqj2OKY",
+		"GroupId": "0bb85b26-a5fe-407a-aef8-8c2fade68d3d",
+		"Date": "2015-10-03T01:00:00Z",
+		"Competition": "UNKNOWN",
+		"HomeTeam": "La Equidad",
+		"AwayTeam": "Once Caldas",
+		"Provider": "SIS",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "3f55acb0-64f7-4c80-ac70-38f138313133",
+	"CeState": {
+		"CeId": "WGfPF9MCNvggugKDqsljJ1ypado",
+		"GroupId": "3f55acb0-64f7-4c80-ac70-38f138313133",
+		"Date": "2015-10-02T22:00:00Z",
+		"Competition": "Mexico Division 2",
+		"HomeTeam": "CF Lobos de la BUAP",
+		"AwayTeam": "Universidad Guadalajara",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "0d6739d9-7bb0-4548-b906-040bb38eff60",
+	"CeState": {
+		"CeId": "7H3xW2bMgTKecN50bHJeOTkFOzs",
+		"GroupId": "0d6739d9-7bb0-4548-b906-040bb38eff60",
+		"Date": "2015-10-03T04:00:00Z",
+		"Competition": "Japan Football League",
+		"HomeTeam": "FC Azul Claro Numazu",
+		"AwayTeam": "Sony Sendai FC",
+		"Provider": "SIS",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "f0cb312a-8c57-4982-8538-dbaa908e14d8",
+	"CeState": {
+		"CeId": "TKWW-Pqg_QR6xdg-KRmpKctrQ78",
+		"GroupId": "f0cb312a-8c57-4982-8538-dbaa908e14d8",
+		"Date": "2015-10-02T16:00:00Z",
+		"Competition": "Poland Division 1",
+		"HomeTeam": "Olimpia Grudziadz",
+		"AwayTeam": "Arka Gdynia",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "4496f8e2-9466-4b14-a5d5-563141219bfd",
+	"CeState": {
+		"CeId": "jDYfZUNMZJM2VD2Vvybe5raZ7Ek",
+		"GroupId": "4496f8e2-9466-4b14-a5d5-563141219bfd",
+		"Date": "2015-10-02T17:30:00Z",
+		"Competition": "Super League (women)",
+		"HomeTeam": "RSC Anderlecht  (Women)",
+		"AwayTeam": "DVC Eva's Tienen (women)",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "48110324-33f0-420e-9686-4684ebd39750",
+	"CeState": {
+		"CeId": "_Y4BaW-TG_FuJN6FYoeCjrKPIpo",
+		"GroupId": "48110324-33f0-420e-9686-4684ebd39750",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "Bulgaria Division 1",
+		"HomeTeam": "Beroe Stara Zagora",
+		"AwayTeam": "Lokomotiv Plovdiv",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "8ab3aef7-888e-4e59-87bf-9b0ee2549d80",
+	"CeState": {
+		"CeId": "3mZog027Jh0donw_Go5q9XmOy1w",
+		"GroupId": "8ab3aef7-888e-4e59-87bf-9b0ee2549d80",
+		"Date": "2015-10-02T18:30:00Z",
+		"Competition": "Belgium Division 1",
+		"HomeTeam": "Oostende",
+		"AwayTeam": "Lokeren",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "2a6712ed-a9f8-426c-8e49-8213f837c821",
+	"CeState": {
+		"CeId": "RFA8J5DJ_wg8gO0cewiGdM3E_nE",
+		"GroupId": "2a6712ed-a9f8-426c-8e49-8213f837c821",
+		"Date": "2015-10-02T20:00:00Z",
+		"Competition": "Ecuador Primera A",
+		"HomeTeam": "River Plate (Ecu)",
+		"AwayTeam": "Independiente (Ecu)",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "3581a101-9d1a-4f5e-b136-bc4e40402e0e",
+	"CeState": {
+		"CeId": "7R1RdJMI578HjT89sboX7s5OjIM",
+		"GroupId": "3581a101-9d1a-4f5e-b136-bc4e40402e0e",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "France National",
+		"HomeTeam": "Les Herbiers Vendee",
+		"AwayTeam": "Amiens",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "37f57052-a7e5-49e5-b679-bb5bb1d9dd4f",
+	"CeState": {
+		"CeId": "YGTKnljVAdExthQTnZsfj12cdGs",
+		"GroupId": "37f57052-a7e5-49e5-b679-bb5bb1d9dd4f",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "Mexico U20 League",
+		"HomeTeam": "Queretaro FC U20",
+		"AwayTeam": "Club Tijuana U20",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "79dcda40-eb06-40c6-92bf-c17feea6533e",
+	"CeState": {
+		"CeId": "BKPk2ANSvJwX67aX9Sb7BKS-40k",
+		"GroupId": "79dcda40-eb06-40c6-92bf-c17feea6533e",
+		"Date": "2015-10-02T15:30:00Z",
+		"Competition": "Romania Liga I",
+		"HomeTeam": "SC FC Voluntari SA",
+		"AwayTeam": "Concordia Chiajna",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "3988c61b-97ef-41e1-919d-f152b1027f78",
+	"CeState": {
+		"CeId": "FwtA0a_77Fbs2aegLWbi-DUOszk",
+		"GroupId": "3988c61b-97ef-41e1-919d-f152b1027f78",
+		"Date": "2015-10-02T16:00:00Z",
+		"Competition": "Argentina Copa Ciudad de Mar del Plata",
+		"HomeTeam": "Tallinna FC Infonet II",
+		"AwayTeam": "Tartu Santos",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "93ca840c-019a-43fe-9233-aec9e274f715",
+	"CeState": {
+		"CeId": "XTsru7xHQZS3HWy-pyWJsJ89NJc",
+		"GroupId": "93ca840c-019a-43fe-9233-aec9e274f715",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "Turkish Superleague",
+		"HomeTeam": "Sivasspor",
+		"AwayTeam": "Mersin Idman Yurdu",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "7c621625-c436-4c16-80a2-f7e00a95ce4d",
+	"CeState": {
+		"CeId": "nSnGPX1SffK13ChyzAp8wuGGrFg",
+		"GroupId": "7c621625-c436-4c16-80a2-f7e00a95ce4d",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "Qatari Stars League",
+		"HomeTeam": "Qatar SC",
+		"AwayTeam": "Umm-Salal",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "de0281f2-1a61-4339-8f19-4f694c2bee49",
+	"CeState": {
+		"CeId": "ZVJywNNENuQgOzs2skNZkq8haYY",
+		"GroupId": "de0281f2-1a61-4339-8f19-4f694c2bee49",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "France Ligue 2",
+		"HomeTeam": "Clermont",
+		"AwayTeam": "Bourg-Peronnas",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "ff39f311-1a10-454c-a672-bb73d223123a",
+	"CeState": {
+		"CeId": "sQOT-ie23c-nqNd0GXmWXBqidyY",
+		"GroupId": "ff39f311-1a10-454c-a672-bb73d223123a",
+		"Date": "2015-10-02T13:00:00Z",
+		"Competition": "Israel Liga Leumit",
+		"HomeTeam": "Hapoel Petach Tikva",
+		"AwayTeam": "Hapoel Bnei Lod",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "2a34cfaf-d1c3-408d-8d6c-bd2f986eab7f",
+	"CeState": {
+		"CeId": "UAD2jCt-39VGg4R_It5K2_oryHo",
+		"GroupId": "2a34cfaf-d1c3-408d-8d6c-bd2f986eab7f",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "Netherlands Division 2",
+		"HomeTeam": "Helmond Sport",
+		"AwayTeam": "RKC Waalwijk",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "e4210858-6744-44c2-9423-dda7982c1286",
+	"CeState": {
+		"CeId": "FZep7b1JwEbx01zIIHObqwqg4UU",
+		"GroupId": "e4210858-6744-44c2-9423-dda7982c1286",
+		"Date": "2015-10-02T17:30:00Z",
+		"Competition": "Vrouwen Eredivisie",
+		"HomeTeam": "Ajax (Women)",
+		"AwayTeam": "FC Twente Enschede (Women)",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "3f78c5ff-f9c8-414b-8ce6-3d6f9c294943",
+	"CeState": {
+		"CeId": "iHiSVgc9SrwAVH6psaLfXuxpp8A",
+		"GroupId": "3f78c5ff-f9c8-414b-8ce6-3d6f9c294943",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "Netherlands Division 2",
+		"HomeTeam": "FC Oss",
+		"AwayTeam": "Fortuna Sittard",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "de5d60c8-fd1f-4162-9f73-96d56f69ec39",
+	"CeState": {
+		"CeId": "3hOlUCqSc3wJSh2_N5LSNWgHpvk",
+		"GroupId": "de5d60c8-fd1f-4162-9f73-96d56f69ec39",
+		"Date": "2015-10-03T00:10:00Z",
+		"Competition": "Argentina Primera Division",
+		"HomeTeam": "Quilmes AC",
+		"AwayTeam": "San Martin de San Juan",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "c09b8392-61f0-45f0-8f4c-7a50927701d7",
+	"CeState": {
+		"CeId": "NOWTRxLErUDd_v1LC4FhFM7-q44",
+		"GroupId": "c09b8392-61f0-45f0-8f4c-7a50927701d7",
+		"Date": "2015-10-02T16:30:00Z",
+		"Competition": "Premier League Cup",
+		"HomeTeam": "FAC Team fur Wien",
+		"AwayTeam": "Austria Klagenfurt",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "ce8b7c5b-73de-4f85-ab03-ddbccb06af20",
+	"CeState": {
+		"CeId": "mR6J3YGe0-F7Q43MfbJH2kMl-Vs",
+		"GroupId": "ce8b7c5b-73de-4f85-ab03-ddbccb06af20",
+		"Date": "2015-10-02T20:00:00Z",
+		"Competition": "Ecuador Primera A",
+		"HomeTeam": "SD Aucas",
+		"AwayTeam": "Mushuc Runa",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "e6c62b9e-f1a6-4344-9e90-51d805f27eaa",
+	"CeState": {
+		"CeId": "UWjXNck5vmn4ZcUCArR9K8nEaF0",
+		"GroupId": "e6c62b9e-f1a6-4344-9e90-51d805f27eaa",
+		"Date": "2015-10-02T14:00:00Z",
+		"Competition": "Russia Premier League",
+		"HomeTeam": "Ural Sverdlovsk Oblast",
+		"AwayTeam": "Kryliya Sovetov",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "c588139a-c4d0-437f-bcb4-ad899dd41577",
+	"CeState": {
+		"CeId": "nsC7NvF_xjEWiMVXtlxgcqA0ppo",
+		"GroupId": "c588139a-c4d0-437f-bcb4-ad899dd41577",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "France Ligue 2",
+		"HomeTeam": "FC Sochaux",
+		"AwayTeam": "Valenciennes FC",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "e090c1c8-ff03-41c4-854c-ed9f707cd852",
+	"CeState": {
+		"CeId": "_BEjMbXeR0SMzd0WFXSdONBQB6o",
+		"GroupId": "e090c1c8-ff03-41c4-854c-ed9f707cd852",
+		"Date": "2015-10-03T01:30:00Z",
+		"Competition": "Mexico Division 2",
+		"HomeTeam": "Merida FC",
+		"AwayTeam": "Coras Tepic",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "63e9b475-3162-4c9b-9eaf-60184c747008",
+	"CeState": {
+		"CeId": "OFqx4YmM14MgjoMJ5sUt9OSx4Hg",
+		"GroupId": "63e9b475-3162-4c9b-9eaf-60184c747008",
+		"Date": "2015-10-02T16:00:00Z",
+		"Competition": "Spain Tercera Division",
+		"HomeTeam": "CD Baztan",
+		"AwayTeam": "CD Cortes",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "1b31ac08-01d7-4291-b6ec-49c78a7f49a0",
+	"CeState": {
+		"CeId": "5gGtx3MnBvf1gUZvW0HlLH5OmU4",
+		"GroupId": "1b31ac08-01d7-4291-b6ec-49c78a7f49a0",
+		"Date": "2015-10-02T16:00:00Z",
+		"Competition": "Algeria Division 1",
+		"HomeTeam": "MC Oran",
+		"AwayTeam": "AsM Oran",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "414421e7-4c4c-4d8b-af16-39664859205c",
+	"CeState": {
+		"CeId": "uMu85HuTzD8_WnvrWiSpicGl7zs",
+		"GroupId": "414421e7-4c4c-4d8b-af16-39664859205c",
+		"Date": "2015-10-02T12:00:00Z",
+		"Competition": "AFC U19 Championship Qualifications",
+		"HomeTeam": "Bangladesh U19",
+		"AwayTeam": "Sri Slanka U19",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": true
+	}
+},
+{
+	"Id": "22c05754-7cc5-418e-961d-0a966ff31fb4",
+	"CeState": {
+		"CeId": "46eHCKXSN_an_S40Y-v3bAHAa8g",
+		"GroupId": "22c05754-7cc5-418e-961d-0a966ff31fb4",
+		"Date": "2015-10-02T17:30:00Z",
+		"Competition": "Sweden Women Damallsvenskan",
+		"HomeTeam": "Rosengard (Women)",
+		"AwayTeam": "Umea IK (Women)",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "f5f5a03e-3163-4090-abc5-d6b1213e6e94",
+	"CeState": {
+		"CeId": "0VYJyX8HBwtHpS45D7QhSmILZT0",
+		"GroupId": "f5f5a03e-3163-4090-abc5-d6b1213e6e94",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "Netherlands Division 2",
+		"HomeTeam": "Jong PSV",
+		"AwayTeam": "Achilles '29",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "d4856d98-259d-4e50-b08c-eb9ba14baed8",
+	"CeState": {
+		"CeId": "rm89aY17W8pJButSYNjXgoaALuQ",
+		"GroupId": "d4856d98-259d-4e50-b08c-eb9ba14baed8",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "Qatari Stars League",
+		"HomeTeam": "Al Khor",
+		"AwayTeam": "Al Wakrah",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "db5e4d29-81ef-48f6-abd3-dab660fccf01",
+	"CeState": {
+		"CeId": "4wLCf87zAcc3fk9fes83ljUPhWA",
+		"GroupId": "db5e4d29-81ef-48f6-abd3-dab660fccf01",
+		"Date": "2015-10-02T14:00:00Z",
+		"Competition": "Algeria Ligue 1 - U21",
+		"HomeTeam": "NA Hussein Dey U21",
+		"AwayTeam": "RC Relizane U21",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "0acc8c85-f900-4d0b-bedb-b98828384fef",
+	"CeState": {
+		"CeId": "bANF9BVpdKMqR4nS76wMBhvT8W8",
+		"GroupId": "0acc8c85-f900-4d0b-bedb-b98828384fef",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "Germany Regionalliga Sudwest",
+		"HomeTeam": "FC 08 Homburg",
+		"AwayTeam": "Kaiserslautern II",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "0faa1052-017b-4a8a-8ade-6d80d3b690fb",
+	"CeState": {
+		"CeId": "M_PpBmCR84n2eb5dOAi9TUQKe6c",
+		"GroupId": "0faa1052-017b-4a8a-8ade-6d80d3b690fb",
+		"Date": "2015-10-03T00:30:00Z",
+		"Competition": "Ecuador Primera A",
+		"HomeTeam": "LDU Loja",
+		"AwayTeam": "El Nacional",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "02dd3a71-9062-490d-ae05-885cbf8c6f65",
+	"CeState": {
+		"CeId": "FvDC3d6d66VOuGpjPhRHJ36ciRM",
+		"GroupId": "02dd3a71-9062-490d-ae05-885cbf8c6f65",
+		"Date": "2015-10-02T16:00:00Z",
+		"Competition": "Poland Division 1",
+		"HomeTeam": "Miedz Legnica",
+		"AwayTeam": "Wigry Suwalki",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "9bc7bb62-f09f-4ee8-862b-e6dcf7e52d24",
+	"CeState": {
+		"CeId": "tYh1xet2tTE1UbGIbZXjjNfH5uM",
+		"GroupId": "9bc7bb62-f09f-4ee8-862b-e6dcf7e52d24",
+		"Date": "2015-10-03T01:00:00Z",
+		"Competition": "CONCACAF Olympic Qualification",
+		"HomeTeam": "Honduras U23",
+		"AwayTeam": "Haiti U23",
+		"Provider": "RunningBall",
+		"IsExtraTime": true,
+		"IsPenalties": true
+	}
+},
+{
+	"Id": "0f0c369d-dc1f-4628-b0ac-3693799a3076",
+	"CeState": {
+		"CeId": "2RgfGErAnJ2GExyUB0EwBwMCyeg",
+		"GroupId": "0f0c369d-dc1f-4628-b0ac-3693799a3076",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "Turkish Superleague",
+		"HomeTeam": "Trabzonspor",
+		"AwayTeam": "Torku Konyaspor",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "3a670e27-d5cd-46c1-ae23-02e4d8688502",
+	"CeState": {
+		"CeId": "Iwl4Z9NbUd4Bh2N5S0WnH2uZXsE",
+		"GroupId": "3a670e27-d5cd-46c1-ae23-02e4d8688502",
+		"Date": "2015-10-02T13:00:00Z",
+		"Competition": "Israel Liga Leumit",
+		"HomeTeam": "Hapoel Rishon Lezion",
+		"AwayTeam": "FC Ashdod",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "2dd2d3be-96c7-4679-ab6f-a6c56358c166",
+	"CeState": {
+		"CeId": "dV8yfyNnsbqUmIiNQAEjsUgMYTI",
+		"GroupId": "2dd2d3be-96c7-4679-ab6f-a6c56358c166",
+		"Date": "2015-10-02T18:00:00Z",
+		"Competition": "France Ligue 2",
+		"HomeTeam": "Nancy",
+		"AwayTeam": "AC Ajaccio",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "38972ad4-1b15-4ee8-bdea-d2c7376cf62d",
+	"CeState": {
+		"CeId": "jr2SLGNnPr7rwqepswsbTFialGA",
+		"GroupId": "38972ad4-1b15-4ee8-bdea-d2c7376cf62d",
+		"Date": "2015-10-02T13:00:00Z",
+		"Competition": "Jordan 1st Division",
+		"HomeTeam": "Ethad Al-Ramtha",
+		"AwayTeam": "Al Tora",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "bb269e92-4f05-4487-a9e0-8c8a8652718c",
+	"CeState": {
+		"CeId": "DIOvO91au01wnwiqIuQwo3UKPCo",
+		"GroupId": "bb269e92-4f05-4487-a9e0-8c8a8652718c",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "Sweden Allsvenskan",
+		"HomeTeam": "Atvidabergs FF",
+		"AwayTeam": "Hammarby",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "6601138b-f3bc-4b3a-a5c5-9eeef6e0df80",
+	"CeState": {
+		"CeId": "TTXaBLbt8a4vxesoahjlYWV_OAY",
+		"GroupId": "6601138b-f3bc-4b3a-a5c5-9eeef6e0df80",
+		"Date": "2015-10-02T12:00:00Z",
+		"Competition": "Romania Liga III - Seria 5",
+		"HomeTeam": "FC Zalau",
+		"AwayTeam": "Luceafarul Oradea",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "df920687-51a8-4547-9dd5-96f5e7a78eb9",
+	"CeState": {
+		"CeId": "ENyhc0BztN70oFx_l5vXr0hg_s0",
+		"GroupId": "df920687-51a8-4547-9dd5-96f5e7a78eb9",
+		"Date": "2015-10-02T16:30:00Z",
+		"Competition": "Latvia 1 Liga",
+		"HomeTeam": "Metalurgs Liepaja",
+		"AwayTeam": "FK Jelgava",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "502a2b63-79b6-413b-bb5f-a39fbfed1dc0",
+	"CeState": {
+		"CeId": "r871BwRpYujDXIt92rHJMJpJe-o",
+		"GroupId": "502a2b63-79b6-413b-bb5f-a39fbfed1dc0",
+		"Date": "2015-10-02T16:30:00Z",
+		"Competition": "Germany Bundesliga 2",
+		"HomeTeam": "FSV Frankfurt",
+		"AwayTeam": "FC Heidenheim",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "da49d3eb-da47-47db-bd14-ce3a15035c92",
+	"CeState": {
+		"CeId": "-QJa707eteUV8IqxSab-WDDvYMw",
+		"GroupId": "da49d3eb-da47-47db-bd14-ce3a15035c92",
+		"Date": "2015-10-02T12:00:00Z",
+		"Competition": "U21 League Ukraine",
+		"HomeTeam": "Metalist Kharkiv (Reserves)",
+		"AwayTeam": "FC Stal Dniprodzerzhynsk U21",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "fdf5e99f-c190-4630-a85b-d2e17707c93d",
+	"CeState": {
+		"CeId": "7idoAHlGzOMFkeRPzsrSJZwwoJ0",
+		"GroupId": "fdf5e99f-c190-4630-a85b-d2e17707c93d",
+		"Date": "2015-10-02T15:00:00Z",
+		"Competition": "FBINT AFC U19 Championship",
+		"HomeTeam": "Qatar U19",
+		"AwayTeam": "Kyrgyzstan U19",
+		"Provider": "SIS",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+},
+{
+	"Id": "cce2f9f5-f83d-467c-a74f-c75e287117b3",
+	"CeState": {
+		"CeId": "VpREd4SziN-V3msjtogEggTrqis",
+		"GroupId": "cce2f9f5-f83d-467c-a74f-c75e287117b3",
+		"Date": "2015-10-02T17:00:00Z",
+		"Competition": "Serbia Super Liga",
+		"HomeTeam": "Metalac Gornji Milanovac",
+		"AwayTeam": "Javor Ivanjica",
+		"Provider": "RunningBall",
+		"IsExtraTime": false,
+		"IsPenalties": false
+	}
+}]

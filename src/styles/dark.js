@@ -26,7 +26,7 @@ export default _.merge({}, {
     areaBackgroundInverse: grey1,
     inverseColor: Irid(grey5).lighten(0.5).toHexString(),
     navbarTitleColor: grayLighter,
-    bodyBg: "#212121",
+    bodyBg: "#FFFFFF",
     textColor: grayLight,
     linkColor: coreVars.colors.info,
     linkHoverColor: Irid(coreVars.colors.info).lighten(0.15).toHexString(),

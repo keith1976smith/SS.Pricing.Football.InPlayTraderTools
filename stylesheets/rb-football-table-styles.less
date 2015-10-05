@@ -1,0 +1,114 @@
+
+table.fixtures-table {
+    width: 100%;
+    table-layout: fixed;
+    font-size: 12px;
+    border-collapse: separate;
+    border-spacing: 0;
+    & > thead {
+        & > tr {
+            & > th {
+                
+                border-color: #4c4c4c;
+                color: #ffffff;
+                background-color: #4c4c4c;
+                font-weight: bold;
+                font-size: 12px;
+            }
+            & > th:first-of-type {
+                border-top-left-radius: 3px;
+            }
+            & > th:last-of-type {
+                border-top-right-radius: 3px;
+            }
+        }
+    }
+    & > tbody {
+        & > tr {
+            & > td {
+                background-color: #ffffff;
+                border-width: 0;
+                border-style: solid;
+                border-color: #CACACA;
+                padding: 5px 10px;
+            }
+            & > td:first-of-type {
+                border-left-width: 1px;
+            }
+            & > td:last-of-type {
+                border-right-width: 1px;
+            }
+        }
+        & > tr:last-of-type {
+            & > td {
+                border-bottom-width: 1px;
+            }
+            & > td:first-of-type {
+                border-bottom-left-radius: 3px;
+            }
+            & > td:last-of-type {
+                border-bottom-right-radius: 3px;
+            }
+        }
+    }
+}
+table.fixtures-table th, table.fixtures-table td {
+    padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+table.fixtures-table {
+
+
+	
+	thead {
+
+		tr th {
+
+		    color: #ffffff;
+		    background-color: #4c4c4c;
+		    font-weight: bold;
+		    font-size: 12px;
+		}
+
+		tr th:nth-of-type(1n+2) {
+		    background-color: #6B6B6B;
+		}
+
+		
+
+	}
+
+	tbody {
+
+		tr:nth-of-type(odd) td {
+		    background-color: #F2F2F2;
+		}
+
+		tr:nth-of-type(odd) td:nth-of-type(1n+2) {
+		    background-color: #E0E0E0;
+		}
+
+		tr:nth-of-type(even) td:nth-of-type(1n+2) {
+		    background-color: #F2F2F2;
+		}
+
+		tr>td {
+		    vertical-align: top;
+		}
+
+	}
+
+}
+
+
+
+
+

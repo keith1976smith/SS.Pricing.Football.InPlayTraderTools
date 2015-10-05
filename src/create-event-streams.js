@@ -26,5 +26,8 @@ export default () => mapToEventStreams({
     "clear",
     "setSortByField",
     "setSortAscending",
+  ],
+  users: [
+    "gotUsers"
   ]
 })

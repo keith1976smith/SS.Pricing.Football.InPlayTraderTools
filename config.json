@@ -10,6 +10,8 @@
 	"headerLinkUrl": "#/fixture-id",
 	"homeRedirect": "#/fixture-id",
 	"sport": "football",
+	"appName": "Runningball Football",
 	"uiStemUrl": "//connectint.sportingsolutions.com/#",
-	"apiStemUrl": "//connectappint.sportingsolutions.com/pricingapi/sports/FootballOdds/fixtures/"
+	"apiStemUrl": "//connectappint.sportingsolutions.com/pricingapi/sports/FootballOdds/fixtures/",
+	"rbFootballApiUrl": "//connectappint.sportingsolutions.com/IPAFootballRestService/"
 }

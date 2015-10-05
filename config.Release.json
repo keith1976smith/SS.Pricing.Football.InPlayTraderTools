@@ -10,6 +10,7 @@
     "headerLinkUrl": "#{selfTradeUIUrl}",
     "homeRedirect": "#{selfTradeUIUrl}",
     "sport": "#{sport}",
+    "appName": "#{appName}",
 	"uiStemUrl": "#{uiStemUrl}",
 	"apiStemUrl": "#{apiStemUrl}"
 

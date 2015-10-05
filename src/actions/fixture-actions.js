@@ -13,7 +13,7 @@ export default (stores, eventStreams, pricingApi) => bindAll({
 
   fetch () {
     eventStreams.cleared.onNext();
-    return pricingApi.getFixtures(sport).
+    return pricingApi.getAllFixtures().
       then(function (fixtures) {
         eventStreams.loaded.onNext(fixtures);
       });
