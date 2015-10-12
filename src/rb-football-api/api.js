@@ -2,8 +2,8 @@ import request from "superagent";
 import {EventEmitter} from "events";
 import pricingApi from "@sportingsolutions/pricing-api";
 import apiPaths from "./api-paths";
-import url from "url";
 import {map} from "lodash";
+import preprocess from "./pre-processing";
 
 // ?FromDate=2015/10/02&ToDate=2015/10/03&Trader=alltraders&TradingState=31 Basketball
 // ?fromDate=2015/10/02%2007:17%20AM&toDate=2015/10/03%2005:59%20AM Football
@@ -34,11 +34,12 @@ const prototype = {
   		if (data) {
   			resolve(data);
   		}
-  		else{
+  		else {
   			reject(new Error("Failed to load test data."));
   		}
-
-  	});
+  	}).then((data)=> {
+      return preprocess(data);
+    });
   	// return this._request('GET', this.baseUrl + apiPaths.fixturesPath + "?fromDate=2015/10/02%2007:17%20AM&toDate=2015/10/03%2005:59%20AM", null).then(({body})  => {
   	// 	return body;	
   	// })
@@ -102,7 +103,7 @@ export default function RbFootballApi (baseUrl, userManagementUrl, authToken=nul
     __proto__: prototype,
     baseUrl,
     authToken,
-    userManagementUrl: url.resolve(userManagementUrl, "Users")
+    userManagementUrl
   };
   EventEmitter.call(obj);
   return obj;

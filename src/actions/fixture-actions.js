@@ -13,9 +13,14 @@ export default (stores, eventStreams, pricingApi) => bindAll({
 
   fetch () {
     eventStreams.cleared.onNext();
-    return pricingApi.getAllFixtures().
+    pricingApi.getAllFixtures().
       then(function (fixtures) {
         eventStreams.loaded.onNext(fixtures);
       });
+  },
+
+  setupExtraTime(){
+    
   }
+
 });

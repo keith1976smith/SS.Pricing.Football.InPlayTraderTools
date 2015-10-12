@@ -12,7 +12,7 @@ export default createStoreClass({
       },
       cleared ()  {
         return Immutable.List([]);
-      },
+      }
     }
   }
 });

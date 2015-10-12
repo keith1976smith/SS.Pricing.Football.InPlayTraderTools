@@ -17,6 +17,7 @@ import cookies  from "cookies-js";
 import PricingApi from "@sportingsolutions/pricing-api";
 import RBFootballApi from "./rb-football-api/api";
 import {baseUrl, rbFootballApiUrl} from "../config";
+import url from "url";
 
 // recover login details from cookies
 const username = cookies.get("X-Auth-Username");
@@ -51,12 +52,14 @@ const actions = {
 pricingApi.on("autologin", ({username, password, userManagementUrl, authToken}) => {
   console.log("detected api peforming an autologin")
   actions.account.restoreLogin(username, password, authToken, userManagementUrl);
+  rbFootballApi.userManagementUrl = url.resolve(userManagementUrl, "Users")
 });
 
 // also we'll store the retrieved login details now
 if (authToken && username && userManagementUrl && password) {
   console.log("stored credentials found; updating store")
   actions.account.restoreLogin(username, password, authToken, userManagementUrl);
+  rbFootballApi.userManagementUrl = url.resolve(userManagementUrl, "Users")
 }
 else {
   console.log("no stored credentials found")
