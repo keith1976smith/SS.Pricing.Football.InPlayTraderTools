@@ -38,12 +38,13 @@ const prototype = {
   			reject(new Error("Failed to load test data."));
   		}
   	}).then((data)=> {
-      return preprocess(data);
+      return map(data, (item) => preprocess(item));
     });
   	// return this._request('GET', this.baseUrl + apiPaths.fixturesPath + "?fromDate=2015/10/02%2007:17%20AM&toDate=2015/10/03%2005:59%20AM", null).then(({body})  => {
   	// 	return body;	
   	// })
   },
+
 
   // attempt a request, and retry login in the event of a 401
   _requestWithRetry(...args) {

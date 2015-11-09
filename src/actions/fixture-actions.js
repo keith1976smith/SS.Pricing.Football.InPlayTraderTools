@@ -1,5 +1,4 @@
 import bindAll from "../lib/bind-all";
-import {sport} from "../../config";
 
 export default (stores, eventStreams, pricingApi) => bindAll({
 
@@ -19,8 +18,24 @@ export default (stores, eventStreams, pricingApi) => bindAll({
       });
   },
 
-  setupExtraTime(){
-    
+  edit(id){
+    eventStreams.edit.onNext(id);
+  },
+
+  cancelEdit(id){
+    eventStreams.cancelEdit.onNext(id);
+  },
+
+  saveFixture(id){
+    eventStreams.saveFixture.onNext(id);
+  },
+
+  changeExtraTime(id, key, value){
+    eventStreams.changeExtraTime.onNext({id, key, value});
+  },
+
+  changePenalties(id, key, value){
+    eventStreams.changePenalties.onNext({id, key, value});
   }
 
 });

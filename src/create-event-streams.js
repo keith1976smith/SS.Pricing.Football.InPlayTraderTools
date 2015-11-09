@@ -14,9 +14,11 @@ export default () => mapToEventStreams({
     "loadingStarted",
     "loadingFinished",
     "cleared",
-    "setupExtraTime",
-    "setupPenalties",
-    "configure"
+    "edit",
+    "cancelEdit",
+    "saveFixture",
+    "changeExtraTime",
+    "changePenalties"
   ],
   account: [
     "loggedIn",

@@ -11,7 +11,11 @@ export default Radium(React.createClass({
     users: ImmutablePropTypes.list,
     fixtures: ImmutablePropTypes.list,
     refresh: React.PropTypes.func.isRequired,
-    getUsers: React.PropTypes.func.isRequired
+    getUsers: React.PropTypes.func.isRequired,
+    edit: React.PropTypes.func.isRequired,
+    cancelEdit: React.PropTypes.func.isRequired,
+    changeExtraTime: React.PropTypes.func.isRequired,
+    saveFixture: React.PropTypes.func.isRequired
   },
   
   componentWillMount (){
@@ -21,7 +25,14 @@ export default Radium(React.createClass({
   
   renderFixtures (){
     return this.props.fixtures.map((fixture)=>
-      <FixtureSummary fixture={fixture}/>
+      <FixtureSummary 
+        key={fixture.get("Id")} 
+        fixture={fixture} 
+        edit={this.props.edit} 
+        cancelEdit={this.props.cancelEdit} 
+        changeExtraTime={this.props.changeExtraTime} 
+        changePenalties={this.props.changePenalties} 
+        saveFixture={this.props.saveFixture}/>
     );
   },
 
@@ -34,9 +45,9 @@ export default Radium(React.createClass({
               <th width="30%">Fixture</th>
               <th>Extra Time</th>
               <th>Penalties</th>
-              <th>Goal Total</th>
-              <th>Goal Sup.</th>
-              <th>Draw Cor.</th>
+              <th style={[{textAlign: "center"}]}>Goal Total</th>
+              <th style={[{textAlign: "center"}]}>Goal Sup.</th>
+              <th style={[{textAlign: "center"}]}>Draw Cor.</th>
               <th>Method</th>
               <th>Select All</th>
               <th>Actions</th>

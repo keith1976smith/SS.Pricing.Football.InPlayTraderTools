@@ -32,7 +32,12 @@ export default Radium(React.createClass({
       users={this.props.stores.getIn(["users"])}
       fixtures={this.props.stores.getIn(["fixtures"])}
       getUsers={ this.props.actions.users.getUsers}
-      refresh={ this.props.actions.fixtures.fetch}>
+      refresh={ this.props.actions.fixtures.fetch}
+      edit={this.props.actions.fixtures.edit}
+      cancelEdit={this.props.actions.fixtures.cancelEdit}
+      changeExtraTime={this.props.actions.fixtures.changeExtraTime}
+      changePenalties={this.props.actions.fixtures.changePenalties}
+      saveFixture={this.props.actions.fixtures.saveFixture}>
     </Supervisor>
   },
 

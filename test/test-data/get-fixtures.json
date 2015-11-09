@@ -1,3 +1,12 @@
+/*
+	The following fixture data is a combination of data from two sources joined together:
+	1) ~/IPAFootballRestService/fixtures/{fixtureId}
+	2) ~/PMAManagementService/api/Football/manualoverlay/{fixtureId}
+
+	The current RB football UI solution makes these seperate calls for every fixture behind the scenes and creates one big fixture object that is sent to the UI, 
+	along with additional properties and processing.
+*/
+
 [{
 	"Id": "8e625d1e-dbf7-4a25-a8c9-3b0162c97893",
 	"CeStateResponse": {
@@ -36,6 +45,23 @@
 			"HomePenalties": 0.0,
 			"AwayPenalties": 0.0
 		}
+	},
+	"VariablesResponse": {
+		"NormalTimeVariablesResponse": {
+			"GoalTotal": {
+				"Value": 2.52,
+				"IsSetByTrader": true
+			},
+			"GoalSupremacy": {
+				"Value": 0.36,
+				"IsSetByTrader": true
+			},
+			"DrawCorrelation": {
+				"Value": 0.5,
+				"IsSetByTrader": true
+			}
+		},
+		"AreAllApplied": true
 	},
 	"IsAbandoned": false,
 	"GoalScorerStatus": null,
@@ -147,7 +173,33 @@
 		"Offered": false,
 		"Tradable": false
 	}],
-	"PmaInfoItems": null,
+	"PmaInfoItems": [{
+		"Name": "goaltotal",
+		"Trader": 0.0,
+		"Pma": 2.45928429905984,
+		"Model": 0.0,
+		"AddOn": 0.0,
+		"SoftAddOn": 0.0,
+		"SslnPi": 2.45928429905984
+	},
+	{
+		"Name": "goalsupremacy",
+		"Trader": 0.0,
+		"Pma": 0.248787485194029,
+		"Model": 0.0,
+		"AddOn": 0.0,
+		"SoftAddOn": 0.0,
+		"SslnPi": 0.248787485194029
+	},
+	{
+		"Name": "drawcorrelation",
+		"Trader": 0.0,
+		"Pma": 0.5,
+		"Model": 0.0,
+		"AddOn": 0.0,
+		"SoftAddOn": 0.0,
+		"SslnPi": 0.5
+	}],
 	"FullPmaInfoItems": null,
 	"PmaBaseVariables": [],
 	"MiddleLines": [],
